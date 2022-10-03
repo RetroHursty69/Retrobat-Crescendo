@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>The Fairchild Channel F, short for "Channel Fun", was the first video game console based on a microprocessor, and to use ROM cartridges instead of having games built-in. It was released by Fairchild Camera and Instrument in November 1976 across North America at a retail price of US$169.95 (equivalent to $810 in 2021). It was launched as the "Video Entertainment System", but when Atari, Inc. released its Video Computer System the next year, Fairchild rebranded their machine as "Channel F" while keeping the Video Entertainment System descriptor.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>The Fairchild Channel F, short for "Channel Fun", was the first video game console based on a microprocessor, and to use ROM cartridges instead of having games built-in.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Fairchild Channel F</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Console</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>1976</text>
+		</text>			
+		
+	</view>	
+	
+</theme>
