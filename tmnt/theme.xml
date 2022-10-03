@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>Teenage Mutant Ninja Turtles is an American media franchise created by the comic book artists Kevin Eastman and Peter Laird. It follows Leonardo, Michelangelo, Donatello and Raphael, four anthropomorphic turtle brothers (named after Italian Renaissance artists) trained in ninjutsu who fight evil in New York City. Supporting characters include the turtles' sage and rat sensei Splinter, their human friends April O'Neil and Casey Jones, and enemies such as Baxter Stockman, Krang, and their archenemy, the Shredder.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>Teenage Mutant Ninja Turtles is an American media franchise created by the comic book artists Kevin Eastman and Peter Laird.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>TMNT</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Collection</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>1984</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

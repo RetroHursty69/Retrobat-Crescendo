@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>The Atari ST is a line of home computers from Atari Corporation. The first models were released in June 1985 in North America at a retail price around $799.99 or $999.99, depending on the model. The computers were also released in limited availability in Europe (1985). The ST is the first personal computer to come with a bitmapped color GUI. The computers were manufactured until an unspecified time in 1993.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>The Atari ST is a line of home computers from Atari Corporation.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Atari ST</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Computer</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>1985</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

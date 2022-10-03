@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>The Virtual Boy is a 32-bit table-top video game console developed and manufactured by Nintendo. Released in 1995, it was marketed as the first console capable of displaying stereoscopic 3D. The player uses the console in a manner similar to a head-mounted display, placing their head against the eyepiece to see a red monochrome display. Sales failed to meet targets, and by early 1996, Nintendo ceased distribution and game development after shipping 1.26 million units and releasing 22 games.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>The Virtual Boy is a 32-bit table-top video game console developed and manufactured by Nintendo.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Virtual Boy</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Table Top Console</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>1995</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

@@ -1,0 +1,19 @@
+<!--
+theme name:     Crescendo! October 2022 suited for 16:9
+creator:		Dwayne Hurst (aka Hursty)
+version         1.0
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme defaultView="theme">
+   <formatVersion>7</formatVersion>
+
+   <view name="system,video,detailed">   
+     <image name="scanlines" extra="true">
+       <pos>0 0</pos>
+        <size>1 1 </size>		
+        <path>./_inc/images/scanlines.png</path>
+        <zIndex>21</zIndex>		 
+	   </image>	 
+	</view>	
+</theme>

@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>The Sega 32X is an add-on for the Sega Genesis video game console. Codenamed "Project Mars", the 32X was designed to expand the power of the Genesis and serve as a transitional console into the 32-bit era until the release of the Sega Saturn. Independent of the Genesis, the 32X uses its own ROM cartridges and has its own library of games. The console failed to attract third-party video game developers and consumers. By the end of 1994, the 32X had sold 665,000 units. After price reductions in 1995, it was discontinued in 1996 as Sega turned its focus to the Saturn.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>The Sega 32X is an add-on for the Sega Genesis video game console.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Sega 32X</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Add-on</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>1994</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

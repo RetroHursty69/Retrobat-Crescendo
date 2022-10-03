@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>Handheld LCD games are very small, portable devices for playing interactive electronic games, often miniaturized versions of video games. The controls, display and speakers are all part of a single unit. Rather than a general-purpose screen made up of a grid of small pixels, they usually have custom displays designed to play one game.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>Handheld LCD games are very small, portable devices for playing interactive electronic games.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>LCD Games</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Handheld</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>All</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

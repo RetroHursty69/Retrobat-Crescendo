@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>The PlayStation 3 (PS3) is a home video game console developed by Sony Computer Entertainment. The successor to the PlayStation 2, it is part of the PlayStation brand of consoles. It was first released on November 11, 2006, in Japan, November 17, 2006, in North America, and March 23, 2007, in Europe and Australia.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>The PlayStation 3 (PS3) is a home video game console developed by Sony Computer Entertainment.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>PlayStation 3</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Console</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>2006</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

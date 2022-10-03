@@ -1,0 +1,83 @@
+<!--
+theme name:     Crescendo! October 2022 suited for 16:9
+creator:		Dwayne Hurst (aka Hursty)
+version         1.0
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme defaultView="theme">
+   <formatVersion>7</formatVersion>
+
+
+<feature supported="carousel">
+   <view name="system,basic,video,detailed,gamecarousel,grid">	   
+
+     <image name="icon2" extra="true">	
+        <path>./_inc/images/main_side_green.png</path>	 
+	   </image>	 	   
+
+     <image name="wheelback" extra="true">		
+        <path>./_inc/images/main_bottom_green.png</path>	 
+	   </image>	 	   
+	   
+     <image name="icon3" extra="true">	
+        <path>./_inc/images/main_left_green.png</path>
+	 </image>	 	   
+ 
+  <image name="background4" extra="true">
+        <path>./_inc/images/rating_green.png</path>		
+	   </image>	
+
+      <rating name="md_rating">
+         <filledPath>./_inc/images/star_filled_green.png</filledPath>     
+      </rating>  
+ 
+      <text name="TextDescName">
+         <color>053a15</color>
+      </text> 
+	  
+      <text name="TextDescShort">
+         <color>053a15</color>  
+      </text> 
+
+      <text name="TextCategoryTitle" extra="true">
+         <color>053a15</color>
+      </text> 		  
+	  
+      <text name="TextDescCategory">
+         <color>053a15</color>  
+      </text> 
+
+      <text name="TextYearTitle" extra="true">
+         <color>053a15</color>
+      </text> 	  
+	  
+      <text name="TextDescYear">
+         <color>053a15</color>  
+      </text> 	  
+	  
+      <text name="TextDescLong">
+         <color>053a15</color>   
+      </text> 
+
+      <text name="TextGameCountTitle" extra="true">
+         <color>053a15</color>
+      </text> 
+	  
+      <text name="systemInfo">     
+         <color>053a15</color>	 
+      </text>
+
+      <textlist name="gamelist">    
+         <selectorColor>1c1c1c00</selectorColor> 
+	     <selectedColor>053a15</selectedColor>     
+         <primaryColor>2ea043</primaryColor>
+         <secondaryColor>2ea043</secondaryColor>    
+      </textlist>
+	  
+   </view>
+
+
+</feature>
+ 
+</theme>

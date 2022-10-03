@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>Earthworm Jim is a series of side-scrolling platform games featuring an earthworm named Jim who wears a robotic suit and battles the forces of evil. The series is noted for its platforming and shooting gameplay, surreal humor, and edgy art style.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>Earthworm Jim is a series of side-scrolling platform games featuring an earthworm named Jim who wears a robotic suit.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Earthworm Jim</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Collection</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>1994</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

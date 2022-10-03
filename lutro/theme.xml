@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>Lutro is a 2D game framework that aims for simplicity and extreme portability. Using lutro, you can develop any kind of 2D retro games, like NES or Genesis games, and run them on a wide range of platforms through RetroArch. Lutro makes it easy to write games by using Lua and following the LÖVE API.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>Lutro is a 2D game framework that aims for simplicity and extreme portability.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Lutro</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Emulator</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>All</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

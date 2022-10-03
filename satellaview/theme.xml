@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>The Satellaview is a satellite modem peripheral for Nintendo's Super Famicom system that was released in Japan in 1995. Available for pre-release orders beginning February 13, 1995, the Satellaview retailed for between ¥14,000 and 18,000 (at the time between USD$141 and 182) and came bundled with the BS-X Game Pak and an 8M Memory Pak.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>The Satellaview is a satellite modem peripheral for Nintendo's Super Famicom system that was released in Japan in 1995.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Satellaview</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Peripheral</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>1995</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

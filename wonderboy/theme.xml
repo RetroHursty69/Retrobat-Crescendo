@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>The Wonder Boy series, is a franchise of video games published by Sega and developed by Westone Bit Entertainment (formerly Escape). Beginning with the original Wonder Boy arcade game released in April 21, 1986, the game has spawned several sequels released for arcade, Master System, and Sega Genesis, as well as three compilation titles and three remakes by other developers.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>The Wonder Boy series, is a franchise of video games published by Sega and developed by Westone Bit Entertainment.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Wonder Boy</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Collection</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>1986</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

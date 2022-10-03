@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>Wario is a fictional character in Nintendo's Mario series, designed as an arch-rival to Mario. He first appeared in the 1992 Game Boy game Super Mario Land 2: 6 Golden Coins as the main antagonist and final boss. Wario was designed by Hiroji Kiyotake, and is voiced by Charles Martinet, who voices many other characters in the series, including Mario, Luigi, and Waluigi.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>Wario is a fictional character in Nintendo's Mario series, designed as an arch-rival to Mario.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Wario</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Collection</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>1992</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

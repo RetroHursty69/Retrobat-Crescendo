@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>An educational video game is a video game that provides learning or training value to the player. Edutainment describes an intentional merger of video games and educational software into a single product (and could therefore also comprise more serious titles sometimes described under children's learning software).</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>An educational video game is a video game that provides learning or training value to the player.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Educational</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Collection</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>All</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

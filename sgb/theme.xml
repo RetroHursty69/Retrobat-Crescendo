@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>The Super Game Boy is a peripheral that allows Game Boy cartridges to be played on a Super Nintendo Entertainment System console. Released in June 1994, it retailed for $59.99 in the United States and £49.99 in the United Kingdom.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>The Super Game Boy is a peripheral that allows Game Boy cartridges to be played on a Super Nintendo Entertainment System console.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Super Game Boy</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Peripheral</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>1994</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

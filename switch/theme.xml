@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>The Nintendo Switch is a video game console developed by Nintendo and released worldwide in most regions on March 3, 2017. The console itself is a tablet that can either be docked for use as a home console or used as a portable device, making it a hybrid console. Its wireless Joy-Con controllers, with standard buttons and directional analog sticks for user input, motion sensing, and tactile feedback, can attach to both sides of the console to support handheld-style play.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>The Nintendo Switch is a video game console developed by Nintendo.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Nintendo Switch</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Console/Handheld</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>2017</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

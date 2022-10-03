@@ -1,0 +1,1536 @@
+<!--
+theme name:     Crescendo! October 2022 suited for 16:9
+creator:		Dwayne Hurst (aka Hursty)
+version         1.0
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme defaultView="theme">
+   <formatVersion>7</formatVersion>
+
+
+<feature supported="carousel">
+   <view name="system">
+     <image name="logo">
+       <linearSmooth>true</linearSmooth>
+	   <path>./_inc/images/wheel_default.png</path> 
+	   </image>    
+  
+   
+      <helpsystem name="help">
+         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontSize>0.025</fontSize>     
+         <pos>1.5 0.95</pos>		 
+         <textColor>000000</textColor>
+         <iconColor>000000</iconColor>
+      </helpsystem>	   
+	   
+     <image name="icon1" extra="true">
+       <pos>0 0</pos>
+        <size>1 1 </size>		
+        <zIndex>6</zIndex>		 
+	   </image>	 	   
+
+     <image name="icon2" extra="true">
+       <pos>0 0</pos>
+        <size>1 1 </size>		
+        <zIndex>390</zIndex>		 
+	   </image>	 	   
+
+     <image name="wheelback" extra="true">
+       <pos>0 0</pos>
+        <size>1 1 </size>		
+        <zIndex>390</zIndex>	 
+	   </image>		   
+	   
+     <image name="icon3" extra="true">
+       <pos>0 0</pos>
+        <size>1 1 </size>		
+        <zIndex>395</zIndex>
+		<storyboard>
+		  <animation property="offsetX" from="-0.3" to="0" begin="0" duration="1000" mode="linear"/>			  
+		</storyboard>		 
+	   </image>	 	   
+	   
+	 <video name="system-video1" extra="true">
+        <default>./_inc/videos/_static.mp4</default>		
+        <visible>true</visible>	 	 
+        <rotation>0</rotation>  
+        <roundCorners>0</roundCorners>             
+        <pos>0.38 0.0</pos>
+        <origin>0 0</origin>
+        <size>0.62 0.825</size>
+        <color>FFFFFF</color>
+        <zIndex>5</zIndex>
+        <storyboard>
+        <animation property="opacity" from="0" to="1" duration="1000" mode="easeIn"/>
+        </storyboard>		
+     </video>
+ 
+      <text name="TextDescName">
+         <zIndex>600</zIndex>	      
+         <pos>0.02 0.01</pos>
+         <size>0.45 0.1</size>
+         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontSize>0.08</fontSize>
+         <forceUppercase>0</forceUppercase>
+         <scrollSound></scrollSound>
+         <alignment>left</alignment>
+         <verticalAlignment>top</verticalAlignment>		 
+         <lineSpacing>1.1</lineSpacing>      
+      </text> 
+
+	  
+      <text name="TextDescShort">
+         <zIndex>600</zIndex>	         
+         <pos>1.5 0.18</pos>
+         <size>0.4 0.1</size>
+         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontSize>0.013</fontSize>
+         <forceUppercase>0</forceUppercase>
+         <scrollSound></scrollSound>
+         <verticalAlignment>top</verticalAlignment>			 
+         <alignment>left</alignment>
+         <lineSpacing>1</lineSpacing>      
+      </text> 
+
+      <text name="TextCategoryTitle" extra="true">
+		 <text>Category:</text>	 
+         <zIndex>600</zIndex>	          
+         <pos>0.02 0.115</pos>
+         <size>0.4 0.1</size>
+         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontSize>0.025</fontSize>
+         <forceUppercase>0</forceUppercase>
+         <scrollSound></scrollSound>
+         <verticalAlignment>top</verticalAlignment>			 
+         <alignment>left</alignment>
+         <lineSpacing>1</lineSpacing>    
+      </text> 		  
+	  
+      <text name="TextDescCategory">
+         <zIndex>600</zIndex>	           
+         <pos>0.09 0.115</pos>
+         <size>0.4 0.1</size>
+         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontSize>0.025</fontSize>
+         <forceUppercase>0</forceUppercase>
+         <scrollSound></scrollSound>
+         <verticalAlignment>top</verticalAlignment>			 
+         <alignment>left</alignment>
+         <lineSpacing>1</lineSpacing>      
+      </text> 
+
+      <text name="TextYearTitle" extra="true">
+		 <text>Year:</text>	 
+         <zIndex>600</zIndex>	        
+         <pos>0.02 0.15</pos>
+         <size>0.4 0.1</size>
+         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontSize>0.025</fontSize>
+         <forceUppercase>0</forceUppercase>
+         <scrollSound></scrollSound>
+         <verticalAlignment>top</verticalAlignment>			 
+         <alignment>left</alignment>
+         <lineSpacing>1</lineSpacing>    
+      </text> 	  
+	  
+      <text name="TextDescYear">
+         <zIndex>600</zIndex>	          
+         <pos>0.09 0.15</pos>
+         <size>0.4 0.1</size>
+         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontSize>0.025</fontSize>
+         <forceUppercase>0</forceUppercase>
+         <scrollSound></scrollSound>
+         <verticalAlignment>top</verticalAlignment>			 
+         <alignment>left</alignment>
+         <lineSpacing>1</lineSpacing>      
+      </text> 	  
+	  
+      <text name="TextDescLong">
+         <zIndex>600</zIndex>	           
+         <pos>0.02 0.19</pos>
+         <size>0.4 0.1</size>
+         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontSize>0.014</fontSize>
+         <forceUppercase>0</forceUppercase>
+         <scrollSound></scrollSound>
+         <verticalAlignment>top</verticalAlignment>			 
+         <alignment>left</alignment>
+         <lineSpacing>1.1</lineSpacing>      
+      </text> 
+
+      <text name="TextGameCountTitle" extra="true">
+		 <text>Available:</text>	 
+         <zIndex>600</zIndex>	         
+         <pos>0.22 0.115</pos>
+         <size>0.4 0.1</size>
+         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontSize>0.025</fontSize>
+         <forceUppercase>0</forceUppercase>
+         <scrollSound></scrollSound>
+         <verticalAlignment>top</verticalAlignment>			 
+         <alignment>left</alignment>
+         <lineSpacing>1</lineSpacing>    
+      </text> 
+	  
+      <text name="systemInfo">     
+         <pos>0.29 0.109</pos>
+         <size>0.4 0.1</size>
+		 <origin>0 0</origin>
+         <backgroundColor>00000000</backgroundColor>	 
+         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+	     <fontSize>0.025</fontSize>
+         <zIndex>600</zIndex>
+         <verticalAlignment>top</verticalAlignment>			 
+         <alignment>left</alignment>
+         <forceUppercase>0</forceUppercase>		 
+      </text>
+	 			 
+   </view>
+   
+--------------------------------------------------------------------------------------------------------
+  <view name="screen">  
+	<text name="clock">
+      <color>d4d4d4</color>
+      <fontSize>0.015</fontSize>
+      <pos>1.95 0.975</pos>
+	  <origin>0 0.5</origin>
+      <size>0.09 0.058</size>
+      <alignment>left</alignment>
+      <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>	  
+      <verticalAlignment>center</verticalAlignment>
+    </text>
+  </view>   
+--------------------------------------------------------------------------------------------------------------------   
+
+  <view name="gamecarousel">  
+     <helpsystem name="help">
+         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontSize>0.025</fontSize>     
+         <pos>1.5 0.95</pos>		 
+         <textColor>000000</textColor>
+         <iconColor>000000</iconColor>
+      </helpsystem>	   	   
+
+  <image name="background4" extra="true">
+       <pos>0.04 0.105</pos>
+        <size>0.9 0.9</size>		
+        <zIndex>391</zIndex>		
+	   </image>	
+	   
+     <image name="icon2" extra="true">
+       <pos>0 0</pos>
+        <size>1 1 </size>		
+        <zIndex>390</zIndex>		 
+	   </image>	 	    
+	   
+     <image name="icon3" extra="true">
+       <pos>-0.03 0.2</pos>
+        <size>1 1 </size>		
+        <zIndex>395</zIndex>	 
+	   </image>	 	   
+
+     <image name="wheelback" extra="true">
+       <pos>1.5 0</pos>
+        <size>1 1 </size>		
+        <zIndex>390</zIndex>	 
+	   </image>		   
+  
+      <text name="TextDescName">
+         <zIndex>600</zIndex>	      
+         <pos>0.02 0.01</pos>
+         <size>0.45 0.1</size>
+         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontSize>0.09</fontSize>
+         <forceUppercase>0</forceUppercase>
+         <scrollSound></scrollSound>
+         <alignment>left</alignment>
+         <verticalAlignment>top</verticalAlignment>		 
+         <lineSpacing>1.1</lineSpacing>      
+      </text> 
+
+	  
+      <text name="TextDescLong">
+         <zIndex>600</zIndex>	         
+         <pos>1.5 0.18</pos>
+         <size>0.4 0.1</size>
+         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontSize>0.013</fontSize>
+         <forceUppercase>0</forceUppercase>
+         <scrollSound></scrollSound>
+         <verticalAlignment>top</verticalAlignment>			 
+         <alignment>left</alignment>
+         <lineSpacing>1</lineSpacing>      
+      </text> 
+
+      <text name="TextCategoryTitle" extra="true">
+		 <text>Category:</text>	 
+         <zIndex>600</zIndex>	          
+         <pos>0.02 0.115</pos>
+         <size>0.4 0.1</size>
+         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontSize>0.025</fontSize>
+         <forceUppercase>0</forceUppercase>
+         <scrollSound></scrollSound>
+         <verticalAlignment>top</verticalAlignment>			 
+         <alignment>left</alignment>
+         <lineSpacing>1</lineSpacing>    
+      </text> 		  
+	  
+      <text name="TextDescCategory">
+         <zIndex>600</zIndex>	           
+         <pos>0.09 0.115</pos>
+         <size>0.4 0.1</size>
+         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontSize>0.025</fontSize>
+         <forceUppercase>0</forceUppercase>
+         <scrollSound></scrollSound>
+         <verticalAlignment>top</verticalAlignment>			 
+         <alignment>left</alignment>
+         <lineSpacing>1</lineSpacing>      
+      </text> 
+
+      <text name="TextYearTitle" extra="true">
+		 <text>Year:</text>	 
+         <zIndex>600</zIndex>	        
+         <pos>0.22 0.115</pos>
+         <size>0.4 0.1</size>
+         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontSize>0.025</fontSize>
+         <forceUppercase>0</forceUppercase>
+         <scrollSound></scrollSound>
+         <verticalAlignment>top</verticalAlignment>			 
+         <alignment>left</alignment>
+         <lineSpacing>1</lineSpacing>    
+      </text> 	  
+	  
+      <text name="TextDescYear">
+         <zIndex>600</zIndex>	          
+         <pos>0.27 0.115</pos>
+         <size>0.4 0.1</size>
+         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontSize>0.025</fontSize>
+         <forceUppercase>0</forceUppercase>
+         <scrollSound></scrollSound>
+         <verticalAlignment>top</verticalAlignment>			 
+         <alignment>left</alignment>
+         <lineSpacing>1</lineSpacing>      
+      </text> 	  
+	  
+      <text name="TextDescShort">
+         <zIndex>600</zIndex>	           
+         <pos>0.02 0.16</pos>
+         <size>0.4 0.1</size>
+         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontSize>0.014</fontSize>
+         <forceUppercase>0</forceUppercase>
+         <scrollSound></scrollSound>
+         <verticalAlignment>top</verticalAlignment>			 
+         <alignment>left</alignment>
+         <lineSpacing>1.1</lineSpacing>      
+      </text>  
+	  
+      <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_lastplayed, md_lbl_playcount, md_rating, md_developer, md_publisher, md_genre, md_playcount, md_lastplayed">
+         <pos>1 1</pos>
+      </text>
+      <text name="md_lbl_rating,md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_lastplayed, md_lbl_playcount,md_lbl_players,md_developer, md_publisher, md_genre, md_playcount, md_lastplayed,md_description,md_players,md_releasedate">
+         <color>f0f0f0</color>
+         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontSize>0.02</fontSize>
+      </text>
+      <text name="md_lbl_rating">
+         <pos>1.23 0.71</pos>
+         <size>0.1 0.02</size>
+         <zIndex>43</zIndex>                  
+      </text>
+      <rating name="md_rating">
+         <zIndex>5</zIndex>       
+         <pos>0.23 0.952</pos>
+         <size>0.03 0.03</size>
+         <unfilledPath>./_inc/images/star_empty.png</unfilledPath>
+         <zIndex>800</zIndex>         
+      </rating>
+      <text name="md_lbl_players">
+         <pos>0.02 0.72</pos>
+         <size>0.1 0.02</size>
+         <zIndex>700</zIndex>         
+      </text>
+      <text name="md_players">
+         <pos>0.09 0.72</pos>
+         <size>0.0375 0.02</size>
+         <zIndex>700</zIndex>                
+      </text>
+      <text name="md_lbl_releasedate">
+         <pos>0.02 0.75</pos>
+         <size>0.12 0.02</size>
+         <zIndex>700</zIndex>         
+      </text>
+      <datetime name="md_releasedate">
+         <pos>0.09 0.75</pos>
+         <size>0.12 0.02</size>
+         <zIndex>700</zIndex>               
+      </datetime>
+      <text name="md_lbl_genre">
+         <pos>0.02 0.78</pos>
+         <size>0.1 0.02</size>
+         <zIndex>700</zIndex>                   
+      </text>
+      <text name="md_genre">
+         <pos>0.09 0.78</pos>
+         <size>0.12 0.02</size>       
+         <zIndex>700</zIndex>         
+      </text>         
+      <text name="md_lbl_playcount">
+         <pos>1.7 0.685</pos>
+         <size>0.2 0.035</size>
+         <color>1a92d6</color>
+         <zIndex>5</zIndex>                   
+      </text>
+      <text name="md_playcount">
+         <pos>1.8 0.685</pos>
+         <size>0.0375 0.035</size>
+         <color>1a92d6</color>         
+         <zIndex>5</zIndex>         
+      </text>
+      <text name="md_lbl_publisher">
+         <pos>1.3 0.51</pos>
+         <size>0.1 0.035</size>
+         <color>1a92d6</color>
+         <zIndex>5</zIndex>                   
+      </text>
+      <text name="md_publisher">
+         <pos>1.39 0.51</pos>
+         <size>0.12 0.035</size>
+         <color>1a92d6</color>         
+         <zIndex>5</zIndex>         
+      </text>
+      <text name="md_lbl_developer">
+         <pos>1.3 0.56</pos>
+         <size>0.1 0.035</size>
+         <color>1a92d6</color>
+         <zIndex>5</zIndex>                   
+      </text>
+      <text name="md_developer">
+         <pos>1.39 0.56</pos>
+         <size>0.12 0.035</size>
+         <color>1a92d6</color>         
+         <zIndex>5</zIndex>         
+      </text>
+      <text name="md_lbl_lastplayed">
+         <pos>1.33 0.56</pos>
+         <size>0.12 0.02</size>
+         <zIndex>43</zIndex>         
+      </text>
+      <datetime name="md_lastplayed">
+         <pos>1.43 0.56</pos>
+         <size>0.12 0.02</size>
+         <zIndex>43</zIndex>
+         <color>1a92d6</color>                  
+      </datetime>                            
+      <text name="md_description">
+         <fontSize>0.02</fontSize>      
+         <pos>0.02 0.81</pos>
+         <size>0.22 0.13</size>
+         <alignment>left</alignment> 
+         <fontSize>0.012</fontSize>		 
+         <zIndex>700</zIndex>         
+      </text>	       
+      <image name="md_marquee">
+         <pos>0.3 0.756</pos>
+         <origin>0.5 0.5</origin>
+         <maxSize>0.09 0.06</maxSize>
+         <zIndex>700</zIndex>
+		<storyboard>	  
+		  <animation property="opacity" from="0" to="1" duration="500" mode="easeIn"/>
+	      <animation property="scale" from="1" to="1.05" begin="500" autoreverse="true" duration="1200" repeat="forever" mode="easeOut"/>
+		</storyboard>	         
+      </image> 
+      <image name="md_image">
+         <pos>0.3 0.86</pos>
+         <origin>0.5 0.5</origin>
+         <maxSize>0.09 0.1</maxSize>
+         <zIndex>700</zIndex>
+		<storyboard>	  
+		  <animation property="opacity" from="0" to="1" duration="500" mode="easeIn"/>
+	      <animation property="scale" from="1" to="1.05" begin="450" autoreverse="true" duration="1000" repeat="forever" mode="easeOut"/>
+		</storyboard>         
+      </image>    
+
+<gamecarousel name="gamecarousel">
+          <zIndex>800</zIndex>	
+          <logoScale>1.05</logoScale>			  
+          <type>vertical</type>
+          <pos>0.06 0.21</pos>
+          <size>0.25 0.49</size>
+          <logoSize>0.7 0.7</logoSize>
+          <color>00000000</color>
+          <maxLogoCount>5</maxLogoCount>
+          <logoAlignment>center</logoAlignment> 
+		 <imageSource>marquee</imageSource> 		 
+</gamecarousel>         
+
+     
+</view>   
+-------------------------------------------------------------------------------------------------------------------
+  <view name="basic">  
+
+     <helpsystem name="help">
+         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontSize>0.025</fontSize>     
+         <pos>1.5 0.95</pos>		 
+         <textColor>000000</textColor>
+         <iconColor>000000</iconColor>
+      </helpsystem>	   	   
+
+   <image name="background1" extra="true">
+       <pos>0 0</pos>
+        <size>1 1 </size>		
+        <zIndex>1</zIndex>
+        <path>./_inc/background.png</path>		
+	   </image>	 	  
+	  
+     <image name="icon2" extra="true">
+       <pos>0 0</pos>
+        <size>1 1 </size>		
+        <zIndex>390</zIndex>		 
+	   </image>	 	    
+	   
+     <image name="icon3" extra="true">
+       <pos>1.5 0</pos>
+        <size>1 1 </size>		
+        <zIndex>395</zIndex>	 
+	   </image>	 	   
+
+     <image name="wheelback" extra="true">
+       <pos>1.5 0</pos>
+        <size>1 1 </size>		
+        <zIndex>390</zIndex>	 
+	   </image>		   
+ 
+     <image name="cab1" extra="true">
+       <pos>0.61 0.11</pos>
+        <size>0.22 0.81</size>		
+        <zIndex>22</zIndex>
+        <path>./_inc/images/cab_small_main.png</path>
+		<storyboard>
+        <animation property="opacity" from="0" to="1" duration="1500" mode="easeIn"/>
+        <animation property="x" from="1.3" to="0.61" duration="1500" autoreverse="false" begin="0"/>				  
+		</storyboard>		
+	   </image>
+
+     <image name="cabcrt" extra="true">
+       <pos>0.643 0.291</pos>
+        <size>0.1375 0.165</size>		
+        <zIndex>23</zIndex>
+        <path>./_inc/crtscreen.png</path>
+		<storyboard>
+        <animation property="opacity" from="0" to="1" duration="1500" mode="easeIn"/>
+        <animation property="x" from="1.335" to="0.643" duration="1500" autoreverse="false" begin="0"/>				  
+		</storyboard>		
+	   </image>	   
+	   
+     <image name="marquee1" extra="true">
+       <pos>0.637 0.143</pos>
+        <size>0.166 0.0797</size>		
+        <zIndex>23</zIndex>
+        <path>./_inc/marquee.png</path>
+		<storyboard>
+        <animation property="opacity" from="0" to="1" duration="1500" mode="easeIn"/>
+        <animation property="x" from="1.32" to="0.637" duration="1500" autoreverse="false" begin="0"/>				  
+		</storyboard>		
+	   </image>	 
+ 
+      <text name="TextDescName">
+         <zIndex>600</zIndex>	      
+         <pos>0.02 0.01</pos>
+         <size>0.45 0.1</size>
+         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontSize>0.09</fontSize>
+         <forceUppercase>0</forceUppercase>
+         <scrollSound></scrollSound>
+         <alignment>left</alignment>
+         <verticalAlignment>top</verticalAlignment>		 
+         <lineSpacing>1.1</lineSpacing>      
+      </text> 
+
+	  
+      <text name="TextDescLong">
+         <zIndex>600</zIndex>	         
+         <pos>1.5 0.18</pos>
+         <size>0.4 0.1</size>
+         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontSize>0.013</fontSize>
+         <forceUppercase>0</forceUppercase>
+         <scrollSound></scrollSound>
+         <verticalAlignment>top</verticalAlignment>			 
+         <alignment>left</alignment>
+         <lineSpacing>1</lineSpacing>      
+      </text> 
+
+      <text name="TextCategoryTitle" extra="true">
+		 <text>Category:</text>	 
+         <zIndex>600</zIndex>	          
+         <pos>0.02 0.115</pos>
+         <size>0.4 0.1</size>
+         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontSize>0.025</fontSize>
+         <forceUppercase>0</forceUppercase>
+         <scrollSound></scrollSound>
+         <verticalAlignment>top</verticalAlignment>			 
+         <alignment>left</alignment>
+         <lineSpacing>1</lineSpacing>    
+      </text> 		  
+	  
+      <text name="TextDescCategory">
+         <zIndex>600</zIndex>	           
+         <pos>0.09 0.115</pos>
+         <size>0.4 0.1</size>
+         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontSize>0.025</fontSize>
+         <forceUppercase>0</forceUppercase>
+         <scrollSound></scrollSound>
+         <verticalAlignment>top</verticalAlignment>			 
+         <alignment>left</alignment>
+         <lineSpacing>1</lineSpacing>      
+      </text> 
+
+      <text name="TextYearTitle" extra="true">
+		 <text>Year:</text>	 
+         <zIndex>600</zIndex>	        
+         <pos>0.22 0.115</pos>
+         <size>0.4 0.1</size>
+         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontSize>0.025</fontSize>
+         <forceUppercase>0</forceUppercase>
+         <scrollSound></scrollSound>
+         <verticalAlignment>top</verticalAlignment>			 
+         <alignment>left</alignment>
+         <lineSpacing>1</lineSpacing>    
+      </text> 	  
+	  
+      <text name="TextDescYear">
+         <zIndex>600</zIndex>	          
+         <pos>0.27 0.115</pos>
+         <size>0.4 0.1</size>
+         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontSize>0.025</fontSize>
+         <forceUppercase>0</forceUppercase>
+         <scrollSound></scrollSound>
+         <verticalAlignment>top</verticalAlignment>			 
+         <alignment>left</alignment>
+         <lineSpacing>1</lineSpacing>      
+      </text> 	  
+	  
+      <text name="TextDescShort">
+         <zIndex>600</zIndex>	           
+         <pos>0.02 0.16</pos>
+         <size>0.4 0.1</size>
+         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontSize>0.014</fontSize>
+         <forceUppercase>0</forceUppercase>
+         <scrollSound></scrollSound>
+         <verticalAlignment>top</verticalAlignment>			 
+         <alignment>left</alignment>
+         <lineSpacing>1.1</lineSpacing>      
+      </text>  
+  
+      <textlist name="gamelist">
+         <zIndex>700</zIndex>	        
+         <pos>0.02 0.22</pos>
+         <size>0.3 0.76</size>
+         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontSize>0.029</fontSize>
+         <forceUppercase>1</forceUppercase>
+         <scrollSound></scrollSound>
+         <alignment>left</alignment>
+         <lineSpacing>1.1</lineSpacing>      
+      </textlist>	  
+  </view>  
+
+-------------------------------------------------------------------------------------------------------------------
+ <view name="video">  
+     <helpsystem name="help">
+         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontSize>0.025</fontSize>     
+         <pos>1.5 0.95</pos>		 
+         <textColor>000000</textColor>
+         <iconColor>000000</iconColor>
+      </helpsystem>	   	   
+ 	  
+  <image name="background4" extra="true">
+       <pos>0.04 0.105</pos>
+        <size>0.9 0.9</size>		
+        <zIndex>391</zIndex>		
+	   </image>	
+	   
+     <image name="icon2" extra="true">
+       <pos>0 0</pos>
+        <size>1 1 </size>		
+        <zIndex>390</zIndex>		 
+	   </image>	 	    
+	   
+     <image name="icon3" extra="true">
+       <pos>-0.03 0.2</pos>
+        <size>1 1 </size>		
+        <zIndex>395</zIndex>	 
+	   </image>	 	   
+
+     <image name="wheelback" extra="true">
+       <pos>1.5 0</pos>
+        <size>1 1 </size>		
+        <zIndex>390</zIndex>	 
+	   </image>		   
+  
+      <text name="TextDescName">
+         <zIndex>600</zIndex>	      
+         <pos>0.02 0.01</pos>
+         <size>0.45 0.1</size>
+         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontSize>0.09</fontSize>
+         <forceUppercase>0</forceUppercase>
+         <scrollSound></scrollSound>
+         <alignment>left</alignment>
+         <verticalAlignment>top</verticalAlignment>		 
+         <lineSpacing>1.1</lineSpacing>      
+      </text> 
+
+	  
+      <text name="TextDescLong">
+         <zIndex>600</zIndex>	         
+         <pos>1.5 0.18</pos>
+         <size>0.4 0.1</size>
+         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontSize>0.013</fontSize>
+         <forceUppercase>0</forceUppercase>
+         <scrollSound></scrollSound>
+         <verticalAlignment>top</verticalAlignment>			 
+         <alignment>left</alignment>
+         <lineSpacing>1</lineSpacing>      
+      </text> 
+
+      <text name="TextCategoryTitle" extra="true">
+		 <text>Category:</text>	 
+         <zIndex>600</zIndex>	          
+         <pos>0.02 0.115</pos>
+         <size>0.4 0.1</size>
+         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontSize>0.025</fontSize>
+         <forceUppercase>0</forceUppercase>
+         <scrollSound></scrollSound>
+         <verticalAlignment>top</verticalAlignment>			 
+         <alignment>left</alignment>
+         <lineSpacing>1</lineSpacing>    
+      </text> 		  
+	  
+      <text name="TextDescCategory">
+         <zIndex>600</zIndex>	           
+         <pos>0.09 0.115</pos>
+         <size>0.4 0.1</size>
+         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontSize>0.025</fontSize>
+         <forceUppercase>0</forceUppercase>
+         <scrollSound></scrollSound>
+         <verticalAlignment>top</verticalAlignment>			 
+         <alignment>left</alignment>
+         <lineSpacing>1</lineSpacing>      
+      </text> 
+
+      <text name="TextYearTitle" extra="true">
+		 <text>Year:</text>	 
+         <zIndex>600</zIndex>	        
+         <pos>0.22 0.115</pos>
+         <size>0.4 0.1</size>
+         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontSize>0.025</fontSize>
+         <forceUppercase>0</forceUppercase>
+         <scrollSound></scrollSound>
+         <verticalAlignment>top</verticalAlignment>			 
+         <alignment>left</alignment>
+         <lineSpacing>1</lineSpacing>    
+      </text> 	  
+	  
+      <text name="TextDescYear">
+         <zIndex>600</zIndex>	          
+         <pos>0.27 0.115</pos>
+         <size>0.4 0.1</size>
+         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontSize>0.025</fontSize>
+         <forceUppercase>0</forceUppercase>
+         <scrollSound></scrollSound>
+         <verticalAlignment>top</verticalAlignment>			 
+         <alignment>left</alignment>
+         <lineSpacing>1</lineSpacing>      
+      </text> 	  
+	  
+      <text name="TextDescShort">
+         <zIndex>600</zIndex>	           
+         <pos>0.02 0.16</pos>
+         <size>0.4 0.1</size>
+         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontSize>0.014</fontSize>
+         <forceUppercase>0</forceUppercase>
+         <scrollSound></scrollSound>
+         <verticalAlignment>top</verticalAlignment>			 
+         <alignment>left</alignment>
+         <lineSpacing>1.1</lineSpacing>      
+      </text>  
+  
+      <textlist name="gamelist">
+         <zIndex>700</zIndex>	        
+         <pos>0.02 0.22</pos>
+         <size>0.37 0.46</size>
+         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontSize>0.029</fontSize>
+         <forceUppercase>1</forceUppercase>
+         <scrollSound></scrollSound>
+         <alignment>left</alignment>
+         <lineSpacing>1.1</lineSpacing>      
+      </textlist>
+	  
+      <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_lastplayed, md_lbl_playcount, md_rating, md_developer, md_publisher, md_genre, md_playcount, md_lastplayed">
+         <pos>1 1</pos>
+      </text>
+      <text name="md_lbl_rating,md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_lastplayed, md_lbl_playcount,md_lbl_players,md_developer, md_publisher, md_genre, md_playcount, md_lastplayed,md_description,md_players,md_releasedate">
+         <color>f0f0f0</color>
+         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontSize>0.02</fontSize>
+      </text>
+      <text name="md_lbl_rating">
+         <pos>1.23 0.71</pos>
+         <size>0.1 0.02</size>
+         <zIndex>43</zIndex>                  
+      </text>
+      <rating name="md_rating">
+         <zIndex>5</zIndex>       
+         <pos>0.23 0.952</pos>
+         <size>0.03 0.03</size>
+         <unfilledPath>./_inc/images/star_empty.png</unfilledPath>
+         <zIndex>800</zIndex>         
+      </rating>
+      <text name="md_lbl_players">
+         <pos>0.02 0.72</pos>
+         <size>0.1 0.02</size>
+         <zIndex>700</zIndex>         
+      </text>
+      <text name="md_players">
+         <pos>0.09 0.72</pos>
+         <size>0.0375 0.02</size>
+         <zIndex>700</zIndex>                
+      </text>
+      <text name="md_lbl_releasedate">
+         <pos>0.02 0.75</pos>
+         <size>0.12 0.02</size>
+         <zIndex>700</zIndex>         
+      </text>
+      <datetime name="md_releasedate">
+         <pos>0.09 0.75</pos>
+         <size>0.12 0.02</size>
+         <zIndex>700</zIndex>               
+      </datetime>
+      <text name="md_lbl_genre">
+         <pos>0.02 0.78</pos>
+         <size>0.1 0.02</size>
+         <zIndex>700</zIndex>                   
+      </text>
+      <text name="md_genre">
+         <pos>0.09 0.78</pos>
+         <size>0.12 0.02</size>       
+         <zIndex>700</zIndex>         
+      </text>         
+      <text name="md_lbl_playcount">
+         <pos>1.7 0.685</pos>
+         <size>0.2 0.035</size>
+         <color>1a92d6</color>
+         <zIndex>5</zIndex>                   
+      </text>
+      <text name="md_playcount">
+         <pos>1.8 0.685</pos>
+         <size>0.0375 0.035</size>
+         <color>1a92d6</color>         
+         <zIndex>5</zIndex>         
+      </text>
+      <text name="md_lbl_publisher">
+         <pos>1.3 0.51</pos>
+         <size>0.1 0.035</size>
+         <color>1a92d6</color>
+         <zIndex>5</zIndex>                   
+      </text>
+      <text name="md_publisher">
+         <pos>1.39 0.51</pos>
+         <size>0.12 0.035</size>
+         <color>1a92d6</color>         
+         <zIndex>5</zIndex>         
+      </text>
+      <text name="md_lbl_developer">
+         <pos>1.3 0.56</pos>
+         <size>0.1 0.035</size>
+         <color>1a92d6</color>
+         <zIndex>5</zIndex>                   
+      </text>
+      <text name="md_developer">
+         <pos>1.39 0.56</pos>
+         <size>0.12 0.035</size>
+         <color>1a92d6</color>         
+         <zIndex>5</zIndex>         
+      </text>
+      <text name="md_lbl_lastplayed">
+         <pos>1.33 0.56</pos>
+         <size>0.12 0.02</size>
+         <zIndex>43</zIndex>         
+      </text>
+      <datetime name="md_lastplayed">
+         <pos>1.43 0.56</pos>
+         <size>0.12 0.02</size>
+         <zIndex>43</zIndex>
+         <color>1a92d6</color>                  
+      </datetime>                            
+      <text name="md_description">
+         <fontSize>0.02</fontSize>      
+         <pos>0.02 0.81</pos>
+         <size>0.22 0.13</size>
+         <alignment>left</alignment> 
+         <fontSize>0.012</fontSize>		 
+         <zIndex>700</zIndex>         
+      </text>	       
+      <image name="md_marquee">
+         <pos>0.3 0.756</pos>
+         <origin>0.5 0.5</origin>
+         <maxSize>0.09 0.06</maxSize>
+         <zIndex>700</zIndex>
+		<storyboard>	  
+		  <animation property="opacity" from="0" to="1" duration="500" mode="easeIn"/>
+	      <animation property="scale" from="1" to="1.05" begin="500" autoreverse="true" duration="1200" repeat="forever" mode="easeOut"/>
+		</storyboard>	         
+      </image> 
+      <image name="md_image">
+         <pos>0.3 0.86</pos>
+         <origin>0.5 0.5</origin>
+         <maxSize>0.09 0.1</maxSize>
+         <zIndex>700</zIndex>
+		<storyboard>	  
+		  <animation property="opacity" from="0" to="1" duration="500" mode="easeIn"/>
+	      <animation property="scale" from="1" to="1.05" begin="450" autoreverse="true" duration="1000" repeat="forever" mode="easeOut"/>
+		</storyboard>         
+      </image>   	  
+  </view>  
+
+-------------------------------------------------------------------------------------------------------------------
+<view name="detailed">  
+      <helpsystem name="help">
+         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontSize>0.025</fontSize>     
+         <pos>1.5 0.95</pos>		 
+         <textColor>000000</textColor>
+         <iconColor>000000</iconColor>
+      </helpsystem>	   	   
+ 	  
+   <image name="background1" extra="true">
+       <pos>0 0</pos>
+        <size>1 1 </size>		
+        <zIndex>1</zIndex>
+        <path>./_inc/background.png</path>		
+	   </image>	 	
+
+	     <image name="background4" extra="true">
+       <pos>0.04 0.105</pos>
+        <size>0.9 0.9</size>		
+        <zIndex>391</zIndex>		
+	   </image>	
+    
+     <image name="icon2" extra="true">
+       <pos>0 0</pos>
+        <size>1 1 </size>		
+        <zIndex>390</zIndex>		 
+	   </image>	 	    
+	   
+     <image name="icon3" extra="true">
+       <pos>-0.03 0.2</pos>
+        <size>1 1 </size>		
+        <zIndex>395</zIndex>	 
+	   </image>	 	   
+
+     <image name="wheelback" extra="true">
+       <pos>1.5 0</pos>
+        <size>1 1 </size>		
+        <zIndex>390</zIndex>	 
+	   </image>		   
+  
+      <text name="TextDescName">
+         <zIndex>600</zIndex>	      
+         <pos>0.02 0.01</pos>
+         <size>0.45 0.1</size>
+         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontSize>0.09</fontSize>
+         <forceUppercase>0</forceUppercase>
+         <scrollSound></scrollSound>
+         <alignment>left</alignment>
+         <verticalAlignment>top</verticalAlignment>		 
+         <lineSpacing>1.1</lineSpacing>      
+      </text> 
+
+	  
+      <text name="TextDescLong">
+         <zIndex>600</zIndex>	         
+         <pos>1.5 0.18</pos>
+         <size>0.4 0.1</size>
+         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontSize>0.013</fontSize>
+         <forceUppercase>0</forceUppercase>
+         <scrollSound></scrollSound>
+         <verticalAlignment>top</verticalAlignment>			 
+         <alignment>left</alignment>
+         <lineSpacing>1</lineSpacing>      
+      </text> 
+
+      <text name="TextCategoryTitle" extra="true">
+		 <text>Category:</text>	 
+         <zIndex>600</zIndex>	          
+         <pos>0.02 0.115</pos>
+         <size>0.4 0.1</size>
+         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontSize>0.025</fontSize>
+         <forceUppercase>0</forceUppercase>
+         <scrollSound></scrollSound>
+         <verticalAlignment>top</verticalAlignment>			 
+         <alignment>left</alignment>
+         <lineSpacing>1</lineSpacing>    
+      </text> 		  
+	  
+      <text name="TextDescCategory">
+         <zIndex>600</zIndex>	           
+         <pos>0.09 0.115</pos>
+         <size>0.4 0.1</size>
+         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontSize>0.025</fontSize>
+         <forceUppercase>0</forceUppercase>
+         <scrollSound></scrollSound>
+         <verticalAlignment>top</verticalAlignment>			 
+         <alignment>left</alignment>
+         <lineSpacing>1</lineSpacing>      
+      </text> 
+
+      <text name="TextYearTitle" extra="true">
+		 <text>Year:</text>	 
+         <zIndex>600</zIndex>	        
+         <pos>0.22 0.115</pos>
+         <size>0.4 0.1</size>
+         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontSize>0.025</fontSize>
+         <forceUppercase>0</forceUppercase>
+         <scrollSound></scrollSound>
+         <verticalAlignment>top</verticalAlignment>			 
+         <alignment>left</alignment>
+         <lineSpacing>1</lineSpacing>    
+      </text> 	  
+	  
+      <text name="TextDescYear">
+         <zIndex>600</zIndex>	          
+         <pos>0.27 0.115</pos>
+         <size>0.4 0.1</size>
+         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontSize>0.025</fontSize>
+         <forceUppercase>0</forceUppercase>
+         <scrollSound></scrollSound>
+         <verticalAlignment>top</verticalAlignment>			 
+         <alignment>left</alignment>
+         <lineSpacing>1</lineSpacing>      
+      </text> 	  
+	  
+      <text name="TextDescShort">
+         <zIndex>600</zIndex>	           
+         <pos>0.02 0.16</pos>
+         <size>0.4 0.1</size>
+         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontSize>0.014</fontSize>
+         <forceUppercase>0</forceUppercase>
+         <scrollSound></scrollSound>
+         <verticalAlignment>top</verticalAlignment>			 
+         <alignment>left</alignment>
+         <lineSpacing>1.1</lineSpacing>      
+      </text>  
+  
+      <textlist name="gamelist">
+         <zIndex>700</zIndex>	        
+         <pos>0.02 0.22</pos>
+         <size>0.37 0.46</size>
+         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontSize>0.029</fontSize>
+         <forceUppercase>1</forceUppercase>
+         <scrollSound></scrollSound>
+         <alignment>left</alignment>
+         <lineSpacing>1.1</lineSpacing>      
+      </textlist>
+	  
+      <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_lastplayed, md_lbl_playcount, md_rating, md_developer, md_publisher, md_genre, md_playcount, md_lastplayed">
+         <pos>1 1</pos>
+      </text>
+      <text name="md_lbl_rating,md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_lastplayed, md_lbl_playcount,md_lbl_players,md_developer, md_publisher, md_genre, md_playcount, md_lastplayed,md_description,md_players,md_releasedate">
+         <color>f0f0f0</color>
+         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontSize>0.02</fontSize>
+      </text>
+      <text name="md_lbl_rating">
+         <pos>1.23 0.71</pos>
+         <size>0.1 0.02</size>
+         <zIndex>43</zIndex>                  
+      </text>
+      <rating name="md_rating">
+         <zIndex>5</zIndex>       
+         <pos>0.23 0.952</pos>
+         <size>0.03 0.03</size>
+         <unfilledPath>./_inc/images/star_empty.png</unfilledPath>
+         <zIndex>800</zIndex>         
+      </rating>
+      <text name="md_lbl_players">
+         <pos>0.02 0.72</pos>
+         <size>0.1 0.02</size>
+         <zIndex>700</zIndex>         
+      </text>
+      <text name="md_players">
+         <pos>0.09 0.72</pos>
+         <size>0.0375 0.02</size>
+         <zIndex>700</zIndex>                
+      </text>
+      <text name="md_lbl_releasedate">
+         <pos>0.02 0.75</pos>
+         <size>0.12 0.02</size>
+         <zIndex>700</zIndex>         
+      </text>
+      <datetime name="md_releasedate">
+         <pos>0.09 0.75</pos>
+         <size>0.12 0.02</size>
+         <zIndex>700</zIndex>               
+      </datetime>
+      <text name="md_lbl_genre">
+         <pos>0.02 0.78</pos>
+         <size>0.1 0.02</size>
+         <zIndex>700</zIndex>                   
+      </text>
+      <text name="md_genre">
+         <pos>0.09 0.78</pos>
+         <size>0.12 0.02</size>       
+         <zIndex>700</zIndex>         
+      </text>         
+      <text name="md_lbl_playcount">
+         <pos>1.7 0.685</pos>
+         <size>0.2 0.035</size>
+         <color>1a92d6</color>
+         <zIndex>5</zIndex>                   
+      </text>
+      <text name="md_playcount">
+         <pos>1.8 0.685</pos>
+         <size>0.0375 0.035</size>
+         <color>1a92d6</color>         
+         <zIndex>5</zIndex>         
+      </text>
+      <text name="md_lbl_publisher">
+         <pos>1.3 0.51</pos>
+         <size>0.1 0.035</size>
+         <color>1a92d6</color>
+         <zIndex>5</zIndex>                   
+      </text>
+      <text name="md_publisher">
+         <pos>1.39 0.51</pos>
+         <size>0.12 0.035</size>
+         <color>1a92d6</color>         
+         <zIndex>5</zIndex>         
+      </text>
+      <text name="md_lbl_developer">
+         <pos>1.3 0.56</pos>
+         <size>0.1 0.035</size>
+         <color>1a92d6</color>
+         <zIndex>5</zIndex>                   
+      </text>
+      <text name="md_developer">
+         <pos>1.39 0.56</pos>
+         <size>0.12 0.035</size>
+         <color>1a92d6</color>         
+         <zIndex>5</zIndex>         
+      </text>
+      <text name="md_lbl_lastplayed">
+         <pos>1.33 0.56</pos>
+         <size>0.12 0.02</size>
+         <zIndex>43</zIndex>         
+      </text>
+      <datetime name="md_lastplayed">
+         <pos>1.43 0.56</pos>
+         <size>0.12 0.02</size>
+         <zIndex>43</zIndex>
+         <color>1a92d6</color>                  
+      </datetime>                            
+      <text name="md_description">
+         <fontSize>0.02</fontSize>      
+         <pos>0.02 0.81</pos>
+         <size>0.31 0.13</size>
+         <alignment>left</alignment> 
+         <fontSize>0.012</fontSize>		 
+         <zIndex>700</zIndex>         
+      </text>	       
+      <image name="md_marquee">
+         <pos>0.3 0.756</pos>
+         <origin>0.5 0.5</origin>
+         <maxSize>0.09 0.06</maxSize>
+         <zIndex>700</zIndex>
+		<storyboard>	  
+		  <animation property="opacity" from="0" to="1" duration="500" mode="easeIn"/>
+	      <animation property="scale" from="1" to="1.05" begin="500" autoreverse="true" duration="1200" repeat="forever" mode="easeOut"/>
+		</storyboard>	         
+      </image> 
+      <image name="md_image">
+        <pos>0.365 0.0</pos>
+        <origin>0 0</origin>
+        <size>0.635 1</size>
+         <zIndex>10</zIndex>      
+      </image>  	  
+  </view>  
+
+-------------------------------------------------------------------------------------------------------------------   
+<view name="grid">  
+     <helpsystem name="help">
+         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontSize>0.025</fontSize>     
+         <pos>1.5 0.95</pos>		 
+         <textColor>000000</textColor>
+         <iconColor>000000</iconColor>
+      </helpsystem>	   	   
+
+  <image name="background4" extra="true">
+       <pos>0.04 0.105</pos>
+        <size>0.9 0.9</size>		
+        <zIndex>391</zIndex>		
+	   </image>	
+	   
+     <image name="icon2" extra="true">
+       <pos>0 0</pos>
+        <size>1 1 </size>		
+        <zIndex>390</zIndex>		 
+	   </image>	 	    
+	   
+     <image name="icon3" extra="true">
+       <pos>-0.03 0.2</pos>
+        <size>1 1 </size>		
+        <zIndex>395</zIndex>	 
+	   </image>	 	   
+
+     <image name="wheelback" extra="true">
+       <pos>1.5 0</pos>
+        <size>1 1 </size>		
+        <zIndex>390</zIndex>	 
+	   </image>		   
+  
+      <text name="TextDescName">
+         <zIndex>600</zIndex>	      
+         <pos>0.02 0.01</pos>
+         <size>0.45 0.1</size>
+         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontSize>0.09</fontSize>
+         <forceUppercase>0</forceUppercase>
+         <scrollSound></scrollSound>
+         <alignment>left</alignment>
+         <verticalAlignment>top</verticalAlignment>		 
+         <lineSpacing>1.1</lineSpacing>      
+      </text> 
+
+	  
+      <text name="TextDescLong">
+         <zIndex>600</zIndex>	         
+         <pos>1.5 0.18</pos>
+         <size>0.4 0.1</size>
+         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontSize>0.013</fontSize>
+         <forceUppercase>0</forceUppercase>
+         <scrollSound></scrollSound>
+         <verticalAlignment>top</verticalAlignment>			 
+         <alignment>left</alignment>
+         <lineSpacing>1</lineSpacing>      
+      </text> 
+
+      <text name="TextCategoryTitle" extra="true">
+		 <text>Category:</text>	 
+         <zIndex>600</zIndex>	          
+         <pos>0.02 0.115</pos>
+         <size>0.4 0.1</size>
+         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontSize>0.025</fontSize>
+         <forceUppercase>0</forceUppercase>
+         <scrollSound></scrollSound>
+         <verticalAlignment>top</verticalAlignment>			 
+         <alignment>left</alignment>
+         <lineSpacing>1</lineSpacing>    
+      </text> 		  
+	  
+      <text name="TextDescCategory">
+         <zIndex>600</zIndex>	           
+         <pos>0.09 0.115</pos>
+         <size>0.4 0.1</size>
+         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontSize>0.025</fontSize>
+         <forceUppercase>0</forceUppercase>
+         <scrollSound></scrollSound>
+         <verticalAlignment>top</verticalAlignment>			 
+         <alignment>left</alignment>
+         <lineSpacing>1</lineSpacing>      
+      </text> 
+
+      <text name="TextYearTitle" extra="true">
+		 <text>Year:</text>	 
+         <zIndex>600</zIndex>	        
+         <pos>0.22 0.115</pos>
+         <size>0.4 0.1</size>
+         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontSize>0.025</fontSize>
+         <forceUppercase>0</forceUppercase>
+         <scrollSound></scrollSound>
+         <verticalAlignment>top</verticalAlignment>			 
+         <alignment>left</alignment>
+         <lineSpacing>1</lineSpacing>    
+      </text> 	  
+	  
+      <text name="TextDescYear">
+         <zIndex>600</zIndex>	          
+         <pos>0.27 0.115</pos>
+         <size>0.4 0.1</size>
+         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontSize>0.025</fontSize>
+         <forceUppercase>0</forceUppercase>
+         <scrollSound></scrollSound>
+         <verticalAlignment>top</verticalAlignment>			 
+         <alignment>left</alignment>
+         <lineSpacing>1</lineSpacing>      
+      </text> 	  
+	  
+      <text name="TextDescShort">
+         <zIndex>600</zIndex>	           
+         <pos>0.02 0.16</pos>
+         <size>0.4 0.1</size>
+         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontSize>0.014</fontSize>
+         <forceUppercase>0</forceUppercase>
+         <scrollSound></scrollSound>
+         <verticalAlignment>top</verticalAlignment>			 
+         <alignment>left</alignment>
+         <lineSpacing>1.1</lineSpacing>      
+      </text>  
+	  
+      <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_lastplayed, md_lbl_playcount, md_rating, md_developer, md_publisher, md_genre, md_playcount, md_lastplayed">
+         <pos>1 1</pos>
+      </text>
+      <text name="md_lbl_rating,md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_lastplayed, md_lbl_playcount,md_lbl_players,md_developer, md_publisher, md_genre, md_playcount, md_lastplayed,md_description,md_players,md_releasedate">
+         <color>f0f0f0</color>
+         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontSize>0.02</fontSize>
+      </text>
+      <text name="md_lbl_rating">
+         <pos>1.23 0.71</pos>
+         <size>0.1 0.02</size>
+         <zIndex>43</zIndex>                  
+      </text>
+      <rating name="md_rating">
+         <zIndex>5</zIndex>       
+         <pos>0.23 0.952</pos>
+         <size>0.03 0.03</size>
+         <unfilledPath>./_inc/images/star_empty.png</unfilledPath>
+         <zIndex>800</zIndex>         
+      </rating>
+      <text name="md_lbl_players">
+         <pos>0.02 0.72</pos>
+         <size>0.1 0.02</size>
+         <zIndex>700</zIndex>         
+      </text>
+      <text name="md_players">
+         <pos>0.09 0.72</pos>
+         <size>0.0375 0.02</size>
+         <zIndex>700</zIndex>                
+      </text>
+      <text name="md_lbl_releasedate">
+         <pos>0.02 0.75</pos>
+         <size>0.12 0.02</size>
+         <zIndex>700</zIndex>         
+      </text>
+      <datetime name="md_releasedate">
+         <pos>0.09 0.75</pos>
+         <size>0.12 0.02</size>
+         <zIndex>700</zIndex>               
+      </datetime>
+      <text name="md_lbl_genre">
+         <pos>0.02 0.78</pos>
+         <size>0.1 0.02</size>
+         <zIndex>700</zIndex>                   
+      </text>
+      <text name="md_genre">
+         <pos>0.09 0.78</pos>
+         <size>0.12 0.02</size>       
+         <zIndex>700</zIndex>         
+      </text>         
+      <text name="md_lbl_playcount">
+         <pos>1.7 0.685</pos>
+         <size>0.2 0.035</size>
+         <color>1a92d6</color>
+         <zIndex>5</zIndex>                   
+      </text>
+      <text name="md_playcount">
+         <pos>1.8 0.685</pos>
+         <size>0.0375 0.035</size>
+         <color>1a92d6</color>         
+         <zIndex>5</zIndex>         
+      </text>
+      <text name="md_lbl_publisher">
+         <pos>1.3 0.51</pos>
+         <size>0.1 0.035</size>
+         <color>1a92d6</color>
+         <zIndex>5</zIndex>                   
+      </text>
+      <text name="md_publisher">
+         <pos>1.39 0.51</pos>
+         <size>0.12 0.035</size>
+         <color>1a92d6</color>         
+         <zIndex>5</zIndex>         
+      </text>
+      <text name="md_lbl_developer">
+         <pos>1.3 0.56</pos>
+         <size>0.1 0.035</size>
+         <color>1a92d6</color>
+         <zIndex>5</zIndex>                   
+      </text>
+      <text name="md_developer">
+         <pos>1.39 0.56</pos>
+         <size>0.12 0.035</size>
+         <color>1a92d6</color>         
+         <zIndex>5</zIndex>         
+      </text>
+      <text name="md_lbl_lastplayed">
+         <pos>1.33 0.56</pos>
+         <size>0.12 0.02</size>
+         <zIndex>43</zIndex>         
+      </text>
+      <datetime name="md_lastplayed">
+         <pos>1.43 0.56</pos>
+         <size>0.12 0.02</size>
+         <zIndex>43</zIndex>
+         <color>1a92d6</color>                  
+      </datetime>                            
+      <text name="md_description">
+         <fontSize>0.02</fontSize>      
+         <pos>0.02 0.81</pos>
+         <size>0.22 0.13</size>
+         <alignment>left</alignment> 
+         <fontSize>0.012</fontSize>		 
+         <zIndex>700</zIndex>         
+      </text>       
+      <image name="md_marquee">
+         <pos>0.3 0.756</pos>
+         <origin>0.5 0.5</origin>
+         <maxSize>0.09 0.06</maxSize>
+         <zIndex>700</zIndex>
+		<storyboard>	  
+		  <animation property="opacity" from="0" to="1" duration="500" mode="easeIn"/>
+	      <animation property="scale" from="1" to="1.05" begin="500" autoreverse="true" duration="1200" repeat="forever" mode="easeOut"/>
+		</storyboard>	         
+      </image> 
+      <image name="md_image">
+         <pos>0.3 0.86</pos>
+         <origin>0.5 0.5</origin>
+         <maxSize>0.09 0.1</maxSize>
+         <zIndex>700</zIndex>
+		<storyboard>	  
+		  <animation property="opacity" from="0" to="1" duration="500" mode="easeIn"/>
+	      <animation property="scale" from="1" to="1.05" begin="450" autoreverse="true" duration="1000" repeat="forever" mode="easeOut"/>
+		</storyboard>         
+      </image> 
+    <imagegrid name="gamegrid">
+	  <margin>0.024 0.024</margin>
+      <pos>0.02 0.2</pos>
+      <size>0.35 0.5</size>
+      <padding>0.01 0.01 0.01 0.01</padding>
+      <zIndex>800</zIndex>
+      <autoLayout>4 3</autoLayout>
+      <autoLayoutSelectedZoom>1.25</autoLayoutSelectedZoom>
+      <animateSelection>true</animateSelection>
+      <centerSelection>false</centerSelection>
+	  <scrollLoop>true</scrollLoop>
+	  <scrollSound></scrollSound>
+	  <scrollDirection>vertical</scrollDirection>
+	  <scale>0</scale>
+	  <storyboard>
+	 <animation property="scale" from="0" to="1" begin="0" duration="350" mode="EaseOut"/>
+      </storyboard>
+	</imagegrid>
+
+<gridtile name="default">
+<padding>1 1</padding>
+<backgroundCenterColor>FFFFFF00</backgroundCenterColor>
+<backgroundEdgeColor>FFFFFF00</backgroundEdgeColor>
+<imageSizeMode>maxSize</imageSizeMode>
+<imageColor>FFFFFF</imageColor>
+</gridtile>
+
+<gridtile name="selected">
+<backgroundCenterColor>ff000000</backgroundCenterColor>
+<backgroundEdgeColor>ff000000</backgroundEdgeColor>
+<padding>5 5</padding>
+<imageColor>ffffff</imageColor>
+</gridtile>
+	
+</view>  
+
+------------------------------------------------------------------------------------------------------------------- 
+<view name="menu">  
+      <menuText name="menutext">
+         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontSize>0.025</fontSize>     		 
+         <textColor>000000</textColor>
+      </menuText>	   	   
+</view>
+
+
+</feature>
+ 
+<include subset="Color Scheme" name="Default">./color_default.xml</include>
+<include subset="Color Scheme" name="Blue">./color_blue.xml</include>
+<include subset="Color Scheme" name="Green">./color_green.xml</include>  
+<include subset="Color Scheme" name="Orange">./color_orange.xml</include>  
+<include subset="Color Scheme" name="Purple">./color_purple.xml</include> 
+<include subset="Color Scheme" name="Synth">./color_synth.xml</include>
+<include subset="Color Scheme" name="Rainbow">./color_rainbow.xml</include>        
+
+<include subset="Wheel Icons" name="Default">./wheel_slant.xml</include>
+<include subset="Wheel Icons" name="Rectangle">./wheel_rectangle.xml</include>
+<include subset="Wheel Icons" name="Rectangle New">./wheel_rectangle2.xml</include>
+<include subset="Wheel Icons" name="Long">./wheel_long.xml</include>
+<include subset="Wheel Icons" name="Clean">./wheel_clean.xml</include>
+<include subset="Wheel Icons" name="Colors">./wheel_colors.xml</include>
+<include subset="Wheel Icons" name="Clear">./wheel_clear.xml</include>
+<include subset="Wheel Icons" name="CRT">./wheel_crt.xml</include>
+<include subset="Wheel Icons" name="Synth Card">./wheel_synth.xml</include>
+<include subset="Wheel Icons" name="Sweet">./wheel_sweet.xml</include>
+<include subset="Wheel Icons" name="Neon Flyer">./wheel_flyer.xml</include>
+<include subset="Wheel Icons" name="Comics">./wheel_comic.xml</include>
+<include subset="Wheel Icons" name="Pop Box">./wheel_popbox.xml</include>
+<include subset="Wheel Icons" name="Round">./wheel_round.xml</include>
+
+<include subset="Character" name="CRT Screen">./char_crt.xml</include>
+<include subset="Character" name="Comic">./char_comic.xml</include>
+<include subset="Character" name="Pop Box">./char_popbox.xml</include>
+<include subset="Character" name="Default">./char_charmain.xml</include>
+<include subset="Character" name="Synth Card">./char_neon.xml</include>
+<include subset="Character" name="Neon FLyer">./char_flyer.xml</include>
+<include subset="Character" name="Chromey">./char_chromey.xml</include> 
+<include subset="Character" name="Character">./char_charmain2.xml</include> 
+ 
+<include subset="Scanlines" name="On">./scanlines_on.xml</include>
+<include subset="Scanlines" name="Off">./scanlines_off.xml</include> 
+
+<include subset="Videos" name="Random Scraped">./video_random.xml</include>
+<include subset="Videos" name="System Snaps _inc/videos">./video_inc.xml</include>
+
+<include subset="Game Preview" name="Default">./preview_video.xml</include>
+<include subset="Game Preview" name="Cabinet">./preview_cab.xml</include>
+<include subset="Game Preview" name="Small Cabinet">./preview_smallcab.xml</include>
+<include subset="Game Preview" name="CRT">./preview_crt.xml</include>
+<include subset="Game Preview" name="Synth Card">./preview_synth.xml</include>
+<include subset="Game Preview" name="Still Plain">./preview_still.xml</include>
+<include subset="Game Preview" name="Still Neon">./preview_stillneon.xml</include>
+ 
+</theme>

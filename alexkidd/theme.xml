@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>Alex Kidd is a platform video game series developed by Sega, and starring the titular Alex Kidd. The first game (Alex Kidd in Miracle World) released in 1986 on the Sega Master System.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>Alex Kidd is a platform video game series developed by Sega, and starring the titular Alex Kidd.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Alex Kidd</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Collection</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>1986</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

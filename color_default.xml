@@ -1,0 +1,81 @@
+<!--
+theme name:     Crescendo! October 2022 suited for 16:9
+creator:		Dwayne Hurst (aka Hursty)
+version         1.0
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme defaultView="theme">
+   <formatVersion>7</formatVersion>
+
+
+<feature supported="carousel">
+   <view name="system,basic,video,detailed,gamecarousel,grid">	   
+
+     <image name="icon2" extra="true">	
+        <path>./_inc/images/main_side_default.png</path>	 
+	   </image>	 	   
+
+     <image name="wheelback" extra="true">		
+        <path>./_inc/images/main_bottom_default.png</path>	 
+	   </image>	 	   
+
+  <image name="background4" extra="true">
+        <path>./_inc/images/rating_default.png</path>		
+	   </image>	
+	   
+     <image name="icon3" extra="true">	
+        <path>./_inc/images/main_left_default.png</path>
+	 </image>	 	   
+ 
+      <text name="TextDescName">
+         <color>1e424a</color>
+      </text> 
+	  
+      <text name="TextDescShort">
+         <color>2a5b66</color>  
+      </text> 
+
+      <text name="TextCategoryTitle" extra="true">
+         <color>1e424a</color>
+      </text> 		  
+	  
+      <text name="TextDescCategory">
+         <color>2a5b66</color>  
+      </text> 
+
+      <text name="TextYearTitle" extra="true">
+         <color>1e424a</color>
+      </text> 	  
+	  
+      <text name="TextDescYear">
+         <color>2a5b66</color>  
+      </text> 	  
+	  
+      <text name="TextDescLong">
+         <color>2a5b66</color>   
+      </text> 
+
+      <text name="TextGameCountTitle" extra="true">
+         <color>1e424a</color>
+      </text> 
+	  
+      <text name="systemInfo">     
+         <color>2a5b66</color>	 
+      </text>
+
+      <textlist name="gamelist">    
+         <selectorColor>1c1c1c00</selectorColor> 
+	     <selectedColor>1e424a</selectedColor>     
+         <primaryColor>70b9b1</primaryColor>
+         <secondaryColor>70b9b1</secondaryColor>    
+      </textlist>
+   
+      <rating name="md_rating">
+         <filledPath>./_inc/images/star_filled_default.png</filledPath>     
+      </rating>   
+   </view>
+	  
+</feature>
+ 
+</theme>

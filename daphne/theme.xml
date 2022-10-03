@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>DAPHNE is a multi-arcade LaserDisc emulator. The emulation code is open-source but the included frontend (DaphneLoader) is proprietary. It is available as a libretro core, currently only for Android. Hypseus Singe is a new fork which includes Singe support.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>DAPHNE is a multi-arcade LaserDisc emulator.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Daphne</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Emulator</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>1982</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

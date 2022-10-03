@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>Bomberman is a video game franchise originally developed by Hudson Soft and currently owned by Konami. The original game, also known as Bakudan Otoko, was released in Japan in July 1983 and has since spawned multiple sequels and spin-offs released on numerous platforms, as well as several anime and manga adaptations.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>Bomberman is a video game franchise originally developed by Hudson Soft and currently owned by Konami.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Bomberman</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Collection</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>1993</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

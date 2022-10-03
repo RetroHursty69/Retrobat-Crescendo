@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>Ghouls 'n Ghosts, known as Dai Makaimura in Japan, is a side-scrolling platform game developed by Capcom, released as an arcade game in 1988 and subsequently ported to a number of home platforms. It is the sequel to Ghosts 'n Goblins and the second game in the Ghosts 'n Goblins series.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>Ghouls 'n Ghosts, known as Dai Makaimura in Japan, is a side-scrolling platform game developed by Capcom.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Ghouls 'n Ghosts</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Collection</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>1988</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

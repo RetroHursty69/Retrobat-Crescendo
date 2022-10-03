@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>Hacked games for the Sega Game Gear, Sega's first handheld game console. It was the third commercially available color handheld console, after the Atari Lynx and the TurboExpress.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>Hacked games for the Sega Game Gear, Sega's first handheld game console.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Game Gear Hacks</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Hacks</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>1990</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

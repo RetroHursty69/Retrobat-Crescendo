@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>A casual game is a video game targeted at a mass market audience, as opposed to a hardcore game, which is targeted at hobbyist gamers. Casual games may exhibit any type of gameplay and genre. They generally involve simpler rules, shorter sessions, and require less learned skill. They don't expect familiarity with a standard set of mechanics, controls, and tropes.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>A casual game is a video game targeted at a mass market audience, as opposed to a hardcore game.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Casual</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Collection</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>All</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

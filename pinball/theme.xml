@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>Pinball is an arcade game in which a ball rolls and is propelled inside a specially designed cabinet known as a pinball machine, hitting various lights, bumpers, ramps, and other targets depending on its design. The game's object is generally to score as many points as possible by hitting these targets and making various shots with flippers before the ball is lost. Most pinball machines use one ball per turn (except during special multi-ball phases), and the game ends when the ball(s) from the last turn are lost.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>Pinball is an arcade game in which a ball rolls and is propelled inside a specially designed cabinet known as a pinball machine.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Pinball</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Collection</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>All</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

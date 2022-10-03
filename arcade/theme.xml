@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>After two attempts to package mainframe computers running video games into a coin-operated arcade cabinet in 1971, Galaxy Game and Computer Space, Atari released Pong in 1972, the first successful arcade video game. The number of arcade game makers greatly increased over the next several years, including several of the companies that had been making EM games such as Midway, Bally, Williams, Sega, and Taito. As technology moved from transistor-transistor logic (TTL) integrated circuits to microprocessors, a new wave of arcade video games arose, starting with Taito's Space Invaders in 1978 and leading to a golden age of arcade video games that included Pac-Man (Namco, 1980), Missile Command (Atari, 1980), and Donkey Kong (Nintendo, 1981).</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>Arcade video games are coin-operated, housed in an arcade cabinet, and located in amusement arcades alongside other kinds of arcade games.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Arcade</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Arcade</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>1972</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

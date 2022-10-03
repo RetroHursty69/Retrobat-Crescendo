@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>PlayStation minis launched on October 1, 2009 for the PSP and the PSPGo in all regions. Under 100MB these games are smaller, cheaper, and download only. In December of 2009, an update was released on the PlayStation 3 (3.15) which enables most Minis to be played on the home console.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>PlayStation minis are under 100MB and these games are smaller, cheaper, and download only.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>PSP Minis</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Handheld</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>2009</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

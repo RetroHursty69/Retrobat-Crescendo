@@ -1,0 +1,82 @@
+<!--
+theme name:     Crescendo! October 2022 suited for 16:9
+creator:		Dwayne Hurst (aka Hursty)
+version         1.0
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme defaultView="theme">
+   <formatVersion>7</formatVersion>
+
+
+<feature supported="carousel">
+   <view name="system,basic,video,detailed,gamecarousel,grid">	   
+
+     <image name="icon2" extra="true">	
+        <path>./_inc/images/main_side_blue.png</path>	 
+	   </image>	 	   
+
+     <image name="wheelback" extra="true">		
+        <path>./_inc/images/main_bottom_blue.png</path>	 
+	   </image>	 	   
+
+  <image name="background4" extra="true">
+        <path>./_inc/images/rating_blue.png</path>		
+	   </image>	
+
+      <rating name="md_rating">
+         <filledPath>./_inc/images/star_filled_blue.png</filledPath>     
+      </rating> 
+	   
+     <image name="icon3" extra="true">	
+        <path>./_inc/images/main_left_blue.png</path>
+	 </image>	 	   
+ 
+      <text name="TextDescName">
+         <color>0d2d6b</color>
+      </text> 
+	  
+      <text name="TextDescShort">
+         <color>0d2d6b</color> 
+      </text> 
+
+      <text name="TextCategoryTitle" extra="true">
+         <color>0d2d6b</color>
+      </text> 		  
+	  
+      <text name="TextDescCategory">
+         <color>0d2d6b</color>   
+      </text> 
+
+      <text name="TextYearTitle" extra="true">
+         <color>0d2d6b</color>
+      </text> 	  
+	  
+      <text name="TextDescYear">
+         <color>0d2d6b</color> 
+      </text> 	  
+	  
+      <text name="TextDescLong">
+         <color>0d2d6b</color>    
+      </text> 
+
+      <text name="TextGameCountTitle" extra="true">
+         <color>0d2d6b</color>
+      </text> 
+	  
+      <text name="systemInfo">     
+         <color>0d2d6b</color>	 
+      </text>
+	  
+      <textlist name="gamelist">    
+         <selectorColor>1c1c1c00</selectorColor> 
+	     <selectedColor>0d2d6b</selectedColor>     
+         <primaryColor>58a6ff</primaryColor>
+         <secondaryColor>58a6ff</secondaryColor>    
+      </textlist>		  
+		 
+   </view>
+   -------------------------------------------------------------------------------------------------   
+</feature>
+ 
+</theme>

@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>Shoot 'em ups (also known as shmups) are a sub-genre of shooter video games. There is no consensus as to which design elements compose a shoot 'em up; some restrict the definition to games featuring spacecraft and certain types of character movement, while others allow a broader definition including characters on foot and a variety of perspectives.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>Shoot 'em ups are a sub-genre of shooter video games.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Shoot'em ups</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Collection</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>All</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

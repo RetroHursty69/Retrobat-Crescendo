@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>The MSU-1 is a cartridge addon chip (similar to the SuperFx chip) that allows for many enhancements to Super Nintendo Entertainment System (SNES) games including, but not limited to, full-motion video and CD quality sound by adding up to 4GB (yes, 4 gigabytes) of storage for extra content.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>The MSU-1 is a cartridge addon chip (similar to the SuperFx chip) that allows for many enhancements to Super Nintendo Entertainment System.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>SNES MSU-1</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Add-on</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>1991</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

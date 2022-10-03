@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>Tomb Raider, also known as Lara Croft: Tomb Raider from 2001 to 2008, is a media franchise that originated with an action-adventure video game series created by British gaming company Core Design. Formerly owned by Eidos Interactive, then by Square Enix Europe after Square Enix's acquisition of Eidos in 2009, the franchise focuses on the fictional British archaeologist Lara Croft, who travels around the world searching for lost artefacts and infiltrating dangerous tombs and ruins.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>Tomb Raider is a media franchise that originated with an action-adventure video game series created by British gaming company Core Design.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Tomb Raider</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Collection</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>1996</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

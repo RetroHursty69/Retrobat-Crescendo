@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>Crash Bandicoot is a video game franchise originally developed by Naughty Dog as an exclusive for Sony's PlayStation console. It has seen numerous installments created by various developers and published on multiple platforms. The series consists predominantly of platform games, but also includes spin-offs in the kart racing and party game genres.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>Crash Bandicoot is a video game franchise originally developed by Naughty Dog as an exclusive for Sony's PlayStation console.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Crash Bandicoot</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Collection</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>1996</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

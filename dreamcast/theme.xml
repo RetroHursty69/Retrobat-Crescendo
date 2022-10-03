@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>The Dreamcast is a 128-bit video game console which was released by Sega in late 1998 in Japan and from September 1999 in other territories. It was the first entry in the sixth generation of video game consoles, preceding Sony's PlayStation 2, Microsoft's Xbox and the Nintendo GameCube.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>The Dreamcast is a 128-bit video game console which was released by Sega in late 1998 in Japan and from September 1999 in other territories.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Sega Dreamcast</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Console</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>1998</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

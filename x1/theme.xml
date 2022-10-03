@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>The X1, sometimes called the Sharp X1, is a series of home computers released by Sharp Corporation from 1982 to 1988. It was based on a Z80 CPU. Despite the fact that the Computer Division of Sharp Corporation had released the MZ series, suddenly the Television Division released a new computer series called the X1. At the time the original X1 was released, all other home computers generally had a BASIC language in ROM. However the X1 did not have a BASIC ROM, and it had to load the Hu-BASIC interpreter from a cassette tape. While X1 was struggling to sell, the PC8801 (from NEC) was quickly becoming popular in the Japanese market. In 1984, Sharp released the X1 turbo series with high resolution graphics. It had a lot of improvements, but the clock speed was still only 4 MHz. In 1986, Sharp released the X1 turbo Z series with a 4096 color analog RGB monitor.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>The X1, sometimes called the Sharp X1, is a series of home computers released by Sharp Corporation from 1982 to 1988.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Sharp X1</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Computer</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>1982</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

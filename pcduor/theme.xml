@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>The PC Engine Duo is an attempt to "simplify" the complex nature of the PC Engine and its growing number of add-ons. It is essentially a PC Engine and Super CD-ROM2 rolled into one unit - a means to play HuCard, CD-ROM2 and Super CD-ROM2 software without the need for extra purchases. It also integrates the functionality of the Super System Card, in a sense becoming the console of choice for PC Engine enthusiasts.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>The PC Engine Duo is essentially a PC Engine and Super CD-ROM2 rolled into one unit.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>PC Engine Duo R</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Console</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>1991</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

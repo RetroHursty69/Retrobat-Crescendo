@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>Zinc is a command line emulator that focuses in emulating the ZN1, ZN2 and System 11 arcade hardware which are based on Playstation hardware.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>Zinc is a command line emulator that focuses in emulating the ZN1, ZN2 and System 11 arcade hardware which are based on Playstation hardware.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>ZiNc</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Emulator</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>2005</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

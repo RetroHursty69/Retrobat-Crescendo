@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>The Super Famicom is a 16-bit home video game console developed by Nintendo that was released in 1990 in Japan.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>The Super Famicom is a 16-bit home video game console developed by Nintendo.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Super Famicom</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Console</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>1990</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

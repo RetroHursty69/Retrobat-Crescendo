@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>The Game & Watch series are a total of 60 handheld electronic games produced by Nintendo from 1980 to 1991. Created by game designer Gunpei Yokoi, each Game & Watch features a single game to be played on an LCD screen in addition to a clock, an alarm, or both. This console inspired Nintendo to make the Game Boy. It was the earliest Nintendo product to gain major success.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>Game & Watch are handheld electronic games produced by Nintendo.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Game & Watch</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Handheld</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>1980</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

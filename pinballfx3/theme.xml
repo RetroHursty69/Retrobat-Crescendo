@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>Pinball FX 3 is a pinball simulator video game developed and published by Zen Studios and released for Microsoft Windows, Xbox One, PlayStation 4 in September 2017 and then released for the Nintendo Switch in December 2017.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>Pinball FX 3 is a pinball simulator video game developed and published by Zen Studios.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Pinball FX3</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Pinball</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>2017</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

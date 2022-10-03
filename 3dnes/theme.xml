@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>3D NES is a unique NES emulator that converts classic and homebrew NES games into full 3D experiences and let you play them in realtime.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>3D NES is classic and homebrew NES games in a full 3D experiences.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>3D NES</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Emulator</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>Unknown</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

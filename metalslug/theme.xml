@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>Metal Slug is a Japanese run and gun video game series originally created by Nazca Corporation before merging with SNK in 1996 after the completion of the first game in the series. Spin-off games include a third-person shooter to commemorate the 10th anniversary of the series and a tower defense game for the mobile platform.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>Metal Slug is a Japanese run and gun video game series originally created by Nazca Corporation.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Metal Slug</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Collection</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>1996</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

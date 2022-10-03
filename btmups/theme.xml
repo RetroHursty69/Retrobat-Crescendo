@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>The beat 'em up (also known as brawler and, in some markets, beat 'em all) is a video game genre featuring hand-to-hand combat between with a large number of opponents. Traditional beat 'em ups take place in scrolling, two-dimensional (2D) levels, while a number of modern games feature more open three-dimensional (3D) environments with yet larger numbers of enemies. The gameplay tends to follow arcade genre conventions, such as being simple to learn but difficult to master, and the combat system tends to be more highly developed than other side-scrolling action games.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>The beat 'em up is a video game genre featuring hand-to-hand combat between with a large number of opponents.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Beatem Up</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Collection</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>1984</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

@@ -1,0 +1,83 @@
+<!--
+theme name:     Crescendo! October 2022 suited for 16:9
+creator:		Dwayne Hurst (aka Hursty)
+version         1.0
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme defaultView="theme">
+   <formatVersion>7</formatVersion>
+
+
+<feature supported="carousel">
+   <view name="system,basic,video,detailed,gamecarousel,grid">	   
+
+     <image name="icon2" extra="true">	
+        <path>./_inc/images/main_side_orange.png</path>	 
+	   </image>	 	   
+
+     <image name="wheelback" extra="true">		
+        <path>./_inc/images/main_bottom_orange.png</path>	 
+	   </image>	 	   
+	   
+     <image name="icon3" extra="true">	
+        <path>./_inc/images/main_left_orange.png</path>
+	 </image>	 	   
+ 
+  <image name="background4" extra="true">
+        <path>./_inc/images/rating_orange.png</path>		
+	   </image>	
+
+      <rating name="md_rating">
+         <filledPath>./_inc/images/star_filled_orange.png</filledPath>     
+      </rating>  
+ 
+      <text name="TextDescName">
+         <color>752d09</color>
+      </text> 
+	  
+      <text name="TextDescShort">
+         <color>752d09</color>  
+      </text> 
+
+      <text name="TextCategoryTitle" extra="true">
+         <color>752d09</color>
+      </text> 		  
+	  
+      <text name="TextDescCategory">
+         <color>752d09</color>  
+      </text> 
+
+      <text name="TextYearTitle" extra="true">
+         <color>752d09</color>
+      </text> 	  
+	  
+      <text name="TextDescYear">
+         <color>752d09</color>  
+      </text> 	  
+	  
+      <text name="TextDescLong">
+         <color>752d09</color>   
+      </text> 
+
+      <text name="TextGameCountTitle" extra="true">
+         <color>752d09</color>
+      </text> 
+	  
+      <text name="systemInfo">     
+         <color>752d09</color>	 
+      </text>
+
+      <textlist name="gamelist">    
+         <selectorColor>1c1c1c00</selectorColor> 
+	     <selectedColor>752d09</selectedColor>     
+         <primaryColor>db6d28</primaryColor>
+         <secondaryColor>db6d28</secondaryColor>    
+      </textlist>
+	  
+   </view>
+
+
+</feature>
+ 
+</theme>

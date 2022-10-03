@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>A platform game is a sub-genre of action video games in which the core objective is to move the player character between points in an environment. Platform games are characterized by levels consisting of uneven terrain and suspended platforms of varying height that require jumping and climbing to traverse. Other acrobatic maneuvers may factor into the gameplay, such as swinging from vines or grappling hooks, jumping off walls, air dashing, gliding through the air, being shot from cannons, or bouncing from springboards or trampolines.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>A platform game is a sub-genre of action video games in which the core objective is to move the player character between points in an environment.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Platform</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Collection</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>All</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

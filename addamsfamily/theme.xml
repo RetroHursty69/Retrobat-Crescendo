@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>There have been many video games based on The Addams Family television series and films, with released the first release being on the NES in 1989.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>A collection of video games based on The Addams Family television series and films.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>The Addams Family</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Collection</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>1989</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>The Sega CD, released as the Mega-CD in most regions outside North America, is a CD-ROM accessory for the Sega Genesis video game console designed and produced by Sega as part of the fourth generation of video game consoles.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>The Sega CD is a CD-ROM accessory for the Sega Genesis</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Sega CD</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Add-on</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>1991</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

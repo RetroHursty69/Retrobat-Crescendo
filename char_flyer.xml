@@ -1,0 +1,24 @@
+<!--
+theme name:     Crescendo! October 2022 suited for 16:9
+creator:		Dwayne Hurst (aka Hursty)
+version         1.0
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme defaultView="theme">
+   <formatVersion>7</formatVersion>
+
+   <view name="system">      
+     <image name="icon1" extra="true">
+       <pos>0.2 0.46</pos>
+        <size>0.145 0.33</size>		
+        <path>./_inc/flyer.png</path>
+        <zIndex>501</zIndex>
+		<storyboard>
+		  <animation property="offsetX" from="-0.5" to="0" begin="0" duration="1500" mode="linear"/>			  
+		</storyboard>	
+    </image>		
+</view>   
+ 
+</theme>

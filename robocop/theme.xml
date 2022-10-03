@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>RoboCop is a 1987 American science fiction action film directed by Paul Verhoeven, with a screenplay by Edward Neumeier and Michael Miner. The film stars Peter Weller, Nancy Allen, Daniel O'Herlihy, Ronny Cox, Kurtwood Smith, and Miguel Ferrer. Set in a crime-ridden Detroit, in the near future, RoboCop centers on police officer Alex Murphy (Weller) who is murdered by a gang of criminals and subsequently revived by the megacorporation Omni Consumer Products as the cyborg law enforcer RoboCop.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>RoboCop is an American science fiction action film directed by Paul Verhoeven</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>RoboCop</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Collection</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>1987</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

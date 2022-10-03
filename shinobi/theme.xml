@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>Shinobi is a series of hack-and-slash action video games created by Sega. The ninja (shinobi) Joe Musashi is the protagonist of the original series of games (Shinobi to Shinobi III).</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>Shinobi is a series of hack-and-slash action video games created by Sega.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Shinobi</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Collection</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>1987</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>The Magnavox Odyssey 2 is a second generation (1976–1992) home video game console developed and distributed by Magnavox. It was released in February 1979 in North America at a retail price of $179. The console was also released in Europe (1979), and later South America (1983), and Japan (1982). The Odyssey 2 included a full alphanumeric membrane keyboard, which was to be used for educational games, selecting options, or programming. The console was discontinued on March 20, 1984.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>The Magnavox Odyssey 2 is a second generation (1976–1992) home video game console developed and distributed by Magnavox.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Magnavox Odyssey 2</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Console</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>1979</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

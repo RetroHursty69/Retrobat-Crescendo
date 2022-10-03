@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>The King of Fighters (KOF) is a series of fighting games by SNK that began with the release of The King of Fighters '94 in 1994. The series was developed originally for SNK's Neo Geo MVS arcade hardware. This served as the main platform for the series until 2004 when SNK retired it in favor of the Atomiswave arcade board.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>The King of Fighters (KOF) is a series of fighting games by SNK that began with the release of The King of Fighters '94 in 1994.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>The King of Fighters</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Collection</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>1994</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

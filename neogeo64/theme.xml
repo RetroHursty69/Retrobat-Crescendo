@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>The Hyper Neo Geo 64 is SNK's second and final arcade system board in the Neo Geo family, released in 1997. The Hyper Neo Geo 64 was conceived as SNK's 3D debut into the fifth generation video game consoles. It provided the hardware basis for a home system that would replace their aging Neo Geo AES—one that SNK hoped would be capable of competing with fifth generation video game consoles. In 1999, the Hyper Neo Geo 64 was discontinued, with only seven games released for it in two years.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>The Hyper Neo Geo 64 is SNK's second and final arcade system board in the Neo Geo family.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Neo Geo 64</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Arcade</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>1997</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

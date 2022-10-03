@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>Compilations are collections of computer and video games containing more than one previously released computer, arcade, or video game.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>Compilations are collections of computer and video games containing more than one previously released computer, arcade, or video game.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Compilation</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Collection</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>All</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

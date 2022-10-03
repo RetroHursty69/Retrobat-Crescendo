@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>The Nintendo Entertainment System is an 8-bit video game console that was released by Nintendo in North America during 1985, in Europe during 1986 and Australia in 1987.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>The Nintendo Entertainment System is an 8-bit video game console that was released by Nintendo.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Nintendo Ent. System</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Console</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>1985</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

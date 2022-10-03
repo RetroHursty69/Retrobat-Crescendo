@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>The SC-3000 (Sega Computer 3000) is the first and only computer to be designed and manufactured by Sega. It was first released in July of 1983 in Japan, and serves as the home computer equivalent of the SG-1000 cartridge-based video game console. The SC-3000, often known simply as the "Sega Computer" or even just the "Sega", is an 8-bit home computer almost identical in nature to the SG-1000, but with a built-in keyboard and support for more hardware expansions. </text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>The SC-3000 is the first and only computer to be designed and manufactured by Sega.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>SC-3000</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Computer</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>1983</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

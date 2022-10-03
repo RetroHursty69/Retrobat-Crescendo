@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>The GCE Vectrex, usually just referred to as Vectrex, is a second generation (1976–1992) home video game console that was developed by Western Technologies/Smith Engineering, and distributed first by General Consumer Electronics (GCE), and later by Milton Bradley Company after its purchase of GCE. It was released in November 1982 in North America at a retail price of $199. The console was later released in Europe (1983) and Japan (1983). The Vectrex had an integrated vector monitor which displayed vector graphics, which set it apart from other consoles that needed a TV to play on. The console discontinued in early 1984.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>The GCE Vectrex, usually just referred to as Vectrex, is a second generation (1976–1992) home video game console.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>GCE Vectrex</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Console</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>1982</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

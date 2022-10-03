@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>The Nintendo WiiU is an eighth generation home video game console developed and distributed by Nintendo. It was released on November 18, 2012 in North America at a retail price of $299. The console was later released in Europe (2012), Japan (2012), South America (2012), and Australia (2012). The Wii U was much like its predecessor the Wii, but with the added GamePad, which allowed games to be played on its screen instead of the TV, or was utilized for interesting multi-player game mechanics in some games.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>The Nintendo WiiU is an eighth generation home video game console developed and distributed by Nintendo.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Nintendo WiiU</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Console</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>2012</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

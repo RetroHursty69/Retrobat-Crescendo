@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>Adventure Game Studio is a freeware tool that can be used to create both free and commercial graphical adventure games. It is aimed at intermediate-level game designers, and combines an Integrated Development Environment (IDE) for setting up most aspects of the game with a scripting language in order to process the game logic.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>Adventure Game Studio is a freeware tool that can be used to create both free and commercial graphical adventure games.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Adventure Game Studio</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Other</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>1997</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

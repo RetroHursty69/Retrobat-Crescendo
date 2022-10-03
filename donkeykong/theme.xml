@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>Donkey Kong is a video game franchise created by Shigeru Miyamoto and owned by Nintendo. It follows the adventures of a gorilla named Donkey Kong and his clan of other apes and monkeys. The franchise primarily consists of platform games—originally single-screen action puzzle games and later side-scrolling platformers.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>Donkey Kong is a video game franchise created by Shigeru Miyamoto and owned by Nintendo.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Donkey Kong</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Collection</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>1981</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

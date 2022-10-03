@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>Street Fighter, commonly abbreviated as SF, is a Japanese media franchise centered on a series of fighting video and arcade games developed and published by Capcom. The first game in the series was released in 1987, followed by six other main series games, various spin-offs and crossovers, and numerous appearances in other media. Its best-selling 1991 release Street Fighter II established many of the conventions of the one-on-one fighting genre.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>Street Fighter is a Japanese media franchise centered on a series of fighting video and arcade games developed and published by Capcom.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Street Fighter</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Collection</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>1987</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>The PlayStation Portable (PSP) is a handheld game console developed by Sony. Development of the handheld was announced during E3 2003, and it was unveiled on May 11, 2004, at a Sony press conference before E3 2004. The system was released in Japan on December 12, 2004, in North America on March 24, 2005, and in the PAL region on September 1, 2005. It primarily competed with the Nintendo DS, as part of the seventh generation of video games. The PlayStation Portable became the most powerful portable system when launched, just after the Nintendo DS in 2004.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>The PlayStation Portable (PSP) is a handheld game console developed by Sony.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>PSP</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Handheld</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>2004</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

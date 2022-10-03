@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>Sega's SG-1000 (Sega Game 1000) (a.k.a Mark I) was the company's first attempt at home consoles. It was initially test marketed in 1981 and finally released to Japanese consumers in July of 1983. It was a pretty advanced system for its time and featured impressive technical specifications. The system would be sold in Japan until 1985 and was released in various markets throughout European and Australasia. In 1984, Sega released an updated version of the console called the SG-1000 Mark II. This remodeled version used gamepads instead of the original joysticks and had mounts to store them on each side. It also featured a slot which allowed a keyboard attachment called SK-1100 and was compatible with software from the Sega SC-3000 computer.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>Sega's SG-1000 (Sega Game 1000) (a.k.a Mark I) was the company's first attempt at home consoles.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>SG-1000</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Console</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>1983</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

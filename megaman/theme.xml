@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>Mega Man, known as Rockman in Japan, is a Japanese science fiction video game franchise created by Capcom, starring a series of robot characters each known by the moniker "Mega Man". The original game was released for the Nintendo Entertainment System in 1987, and spawned a franchise that expanded to over 50 games on multiple systems. As of July 26, 2022, the series has sold 38 million units worldwide.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>Mega Man, known as Rockman in Japan, is a Japanese science fiction video game franchise created by Capcom.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Mega Man</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Collection</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>1990</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

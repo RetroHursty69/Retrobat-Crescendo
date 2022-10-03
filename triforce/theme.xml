@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>The Triforce Arcade Board was a joint creation by Nintendo, Sega, and Namco. The name is a reference the three companies working together and to the famous triforce symbol from Nintendo's own Zelda franchise. The hardware is very similar to the GameCube with a few enhancements. Some of the more noteworthy games include F-Zero AX from Sega and Mario Kart Arcade GP from Namco</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>The Triforce Arcade Board was a joint creation by Nintendo, Sega, and Namco.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Triforce</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Arcade</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>All</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

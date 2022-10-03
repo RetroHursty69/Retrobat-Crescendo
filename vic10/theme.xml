@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>The Commodore MAX Machine, also known as Ultimax in the United States and Canada and VC-10 in Germany, is a home computer designed and sold by Commodore International in Japan, beginning in early 1982, a predecessor to the popular Commodore 64. The Commodore 64 manual mentions the machine by name, suggesting that Commodore intended to sell the machine internationally; however, it is unclear whether the machine was ever actually sold outside Japan. It is considered a rarity.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>The Commodore MAX Machine, also known as Ultimax in the United States and Canada and VC-10 in Germany.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Commodore MAX Machine</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Computer</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>1982</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

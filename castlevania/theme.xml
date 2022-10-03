@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>Castlevania known in Japan as Akumajō Dracula, is a gothic horror action-adventure video game series and media franchise about Dracula, created and developed by Konami. It has been released on various platforms, from early systems to modern consoles, as well as handheld devices such as mobile phones.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>Castlevania known in Japan as Akumajō Dracula, is a gothic horror action-adventure video game series.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Castlevania</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Collection</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>1986</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

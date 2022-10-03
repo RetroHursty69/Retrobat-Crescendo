@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>The Sony PlayStation 2, or PS2 for short, is a sixth generation (1998–2013) home video game console developed and distributed by Sony Interactive Entertainment. It was released on March 4, 2000 in Japan at a retail price of ¥45,000. The console was later released in North America (2000), Europe (2000), and Australia (2000). The PlayStation 2 was the first PlayStation console to offer backwards compatibility for its predecessor's DualShock controller, as well as for its games.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>The Sony PlayStation 2, is a sixth generation home video game console developed and distributed by Sony Interactive Entertainment.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>PlayStation 2</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Console</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>2000</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

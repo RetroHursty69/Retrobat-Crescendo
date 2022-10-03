@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>The Taito Type X is an arcade system board released in 2004 by game developer and publisher Taito.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>The Taito Type X is an arcade system board released in 2004 by game developer and publisher Taito.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Taito Type X</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Arcade Board</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>2004</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

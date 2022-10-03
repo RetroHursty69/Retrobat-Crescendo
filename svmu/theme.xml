@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>The Visual Memory Unit (VMU), also referred to as the Visual Memory System in Japan and Europe, is the primary memory card produced by Sega for the Dreamcast home video game console. The device features a monochrome liquid crystal display (LCD), multiplayer gaming capability (via connectors at the top), second screen functionality, a real-time clock, file manager, built-in flash memory, and sound capability. Prior to the launch of the Dreamcast, a special Godzilla edition VMU, preloaded with a virtual pet game, was released on July 30, 1998, in Japan.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>The Visual Memory Unit (VMU), also referred to as the Visual Memory System in Japan and Europe.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Sega VMU</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Peripheral</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>1998</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

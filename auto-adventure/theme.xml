@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>An adventure game is a video game genre in which the player assumes the role of a protagonist in an interactive story driven by exploration and/or puzzle-solving.[1] The genre's focus on story allows it to draw heavily from other narrative-based media, literature and film, encompassing a wide variety of literary genres.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>An adventure game is a video game genre in which the player assumes the role of a protagonist in an interactive story.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Adventure</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Collection</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>All</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

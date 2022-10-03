@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>The Amiga 1200, or A1200 (code-named "Channel Z"), is a personal computer in the Amiga computer family released by Commodore International, aimed at the home computer market. It was launched on October 21, 1992, at a base price of £399 in the United Kingdom (equivalent to £878 in 2021) and $599 in the United States (equivalent to $1,157 in 2021).</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>The Amiga 1200, or A1200, is a personal computer in the Amiga computer family released by Commodore International.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Commodore Amiga 1200</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Computer</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>1992</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

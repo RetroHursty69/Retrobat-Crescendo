@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>Strategy is a major video game genre that emphasizes thinking and planning over direct instant action in order to achieve victory. Although many types of video games can contain strategic elements, as a genre, strategy games are most commonly defined as those with a primary focus on high-level strategy, logistics and resource management. They are also usually divided into two main sub-categories: turn-based and real-time, but there are also many strategy cross/sub-genres that feature additional elements such as tactics, diplomacy, economics and exploration.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>Strategy is a major video game genre that emphasizes thinking and planning over direct instant action in order to achieve victory.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Strategy</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Collection</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>All</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

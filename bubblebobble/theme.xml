@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>Bubble Bobble is a 1986 platform arcade game developed and published by Taito. It was distributed in the United States by Romstar, and in Europe by Electrocoin. Players control Bub and Bob, two dragons that set out to save their girlfriends from a world known as the Cave of Monsters. In each level, Bub and Bob must defeat each enemy present by trapping them in bubbles and popping, who turn into bonus items when they hit the ground. There are 100 levels total, each becoming progressively more difficult.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>Bubble Bobble is a 1986 platform arcade game developed and published by Taito.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Bubble Bobble</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Collection</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>1986</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

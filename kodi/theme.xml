@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>Kodi is a free and open-source media player software application developed by the XBMC Foundation, a non-profit technology consortium. Kodi is available for multiple operating systems and hardware platforms, with a software 10-foot user interface for use with televisions and remote controls. It allows users to play and view most streaming media, such as videos, music, podcasts, and videos from the Internet, as well as all common digital media files from local and network storage media.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>Kodi is a free and open-source media player software application developed by the XBMC Foundation.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Kodi</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Other</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>2002</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

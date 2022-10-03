@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>Spectravideo, or SVI (Spectravideo International), was an American computer company founded in 1981 as "SpectraVision" by Harry Fox. They originally made video games for Atari 2600 and VIC-20. Some of their computers were MSX-compliant or IBM PC compatible. They ceased operations in 1988.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>Spectravideo, or SVI (Spectravideo International), was an American computer company founded in 1981 as "SpectraVision" by Harry Fox.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Spectravideo</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Computer</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>1981</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

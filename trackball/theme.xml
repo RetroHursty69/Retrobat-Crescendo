@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>A collection of arcade games that use a trackball as the main control mechanism, in most cases replacing the joystick/s.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>A collection of arcade games that use a trackball as the main control mechanism.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Trackball Classics</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Arcade</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>All</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

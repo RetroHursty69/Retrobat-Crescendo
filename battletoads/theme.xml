@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>Battletoads is a video game media franchise by Rare that began with the original beat 'em up game Battletoads in 1991. Starring three anthropomorphic toads named after skin conditions, Rash, Zitz, and Pimple, the series was created to rival the Teenage Mutant Ninja Turtles games series. The original Battletoads game for the NES was renowned for its extreme difficulty, but still received a cult following, spawning sequels for various platforms including a crossover with the Double Dragon series and a modern reboot after a 25 year gap in releases. In each of the games, the objective is to defeat the toads' nemesis the Dark Queen and her army of space mutants.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>Battletoads is a video game media franchise by Rare that began with the original beat 'em up game Battletoads in 1991.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Battletoads</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Collection</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>1991</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>Steam is a video game digital distribution service and storefront by Valve. It was launched as a software client in September 2003 as a way for Valve to provide automatic updates for their games, and expanded to distributing and offering third-party game publishers' titles in late 2005. Steam offers various features, like digital rights management (DRM), game server matchmaking and anti-cheat measures, and social networking and game streaming services. It provides the user with automatic game updating, saved game cloud synchronization, and community features such as friends messaging, in-game chat and a community market.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>Steam is a video game digital distribution service and storefront by Valve.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Steam</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Service</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>2003</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

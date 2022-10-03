@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>WiiWare was a service that allowed Wii users to download games and applications specifically designed and developed for the Wii video game console made by Nintendo. These games and applications could only be purchased and downloaded from the Wii Shop Channel under the WiiWare section. Once the user had downloaded the game or application, it would appear in their Wii Menu or SD Card Menu as a new channel. WiiWare was a companion to the Virtual Console, which specializes in emulated games originally developed for other systems instead of original games.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>WiiWare was a service that allowed Wii users to download games designed and developed for the Wii video game console.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>WiiWare</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Software</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>2008</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>After 1986, Microsoft stopped with supporting MSX and ASCII in Japan took over further development of the MSX system. Due to ASCII's lack of interest in European market the MSX2+ was never manufactured and sold outside Japan. Rumours and plans existed in the Netherlands to make a European MSX2+, but they never came to reality.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>After 1986, Microsoft stopped with supporting MSX and ASCII in Japan took over further development of the MSX system.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Microsoft MSX2+</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Computer</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>1988</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

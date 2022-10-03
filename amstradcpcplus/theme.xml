@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>In 1990, confronted with a changing home computer market, Amstrad decided to refresh the CPC model range by introducing a new range variantly labelled plus or PLUS, 1990, or CPC+ range. The main goals were numerous enhancements to the existing CPC hardware platform, to restyle the casework to provide a contemporary appearance, and to add native support of cartridge media. The new model palette includes three variants, the 464plus and 6128plus computers and the GX4000 video game console. The "CPC" abbreviation was dropped from the model names.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>In 1990, confronted with a changing home computer market, Amstrad decided to refresh the CPC model range by introducing a new range variantly labelled plus or PLUS, 1990, or CPC+ range.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Amstrad CPC Plus</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Computer</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>1990</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

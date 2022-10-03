@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>The Legend of Zelda is a video game series that takes place in the fictional medieval-inspired Kingdom of Hyrule, often led by the titular Princess Zelda. The protagonist of the series is Link, a child or young man who is destined, in most of the games, to save Hyrule from the clutches of the evil warlock Ganondorf or his alter-ego, the dark beast Ganon. Some of the games feature additional protagonists such as Navi the fairy, Ezlo the talking cap, or Midna the Twili, who serve as sidekicks throughout the course of the game, or different antagonists, such as Vaati the Wind Mage, the General of Darkness General Onox, or the Usurper King Zant.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>The Legend of Zelda is a video game series that takes place in the fictional medieval-inspired Kingdom of Hyrule.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Zelda</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Collection</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>1986</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

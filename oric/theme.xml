@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>The Oric Atmos was a British designed and built machine and was the successor to the Oric 1. Oric International to released the Oric Atmos, which added a true keyboard and an updated V1.1 ROM to the Oric-1. Soon after the Atmos was released, the modem, printer and 3-inch floppy disk drive originally promised for the Oric-1 were announced and released by the end of 1984. Our Oric Atmos is on display in our main gallery.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>The Oric Atmos was a British designed and built machine and was the successor to the Oric 1.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Tangerine Oric</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Computer</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>1984</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

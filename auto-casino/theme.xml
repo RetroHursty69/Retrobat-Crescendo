@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>Casino games typically provide a predictable long-term advantage to the casino, or "house", while offering the players the possibility of a short-term gain that in some cases can be large. Some casino games have a skill element, where the players' decisions have an impact on the results.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>Video games based on different games available at Casino's.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Casino</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Collection</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>All</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

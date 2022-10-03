@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>RetroBat is designed to configure automatically EmulationStation frontend with RetroArch and standalone emulators. With it you will be quickly able to run games from a ROMs collection. You can save a lot of time you can keep to play !</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>RetroBat is designed to configure automatically EmulationStation frontend with RetroArch and standalone emulators.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Retrobat</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Software</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>All</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

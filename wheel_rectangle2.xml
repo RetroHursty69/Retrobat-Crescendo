@@ -1,0 +1,47 @@
+<!--
+theme name:     Crescendo! October 2022 suited for 16:9
+creator:		Dwayne Hurst (aka Hursty)
+version         1.0
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme defaultView="theme">
+   <formatVersion>7</formatVersion>
+
+
+<feature supported="carousel">
+   <view name="system">
+     <image name="logo">
+	   <path>./${system.theme}/_inc/system8.png</path>  
+	 </image> 
+
+	  <carousel name="systemcarousel">
+          <zIndex>500</zIndex>
+          <logoScale>1.10</logoScale>	      
+          <type>horizontal</type>
+          <pos>0 0.41</pos>
+          <size>1 1</size>
+          <logoSize>0.18 0.18</logoSize>
+          <color>00000000</color>
+          <maxLogoCount>5</maxLogoCount>
+          <logoAlignment>center</logoAlignment>		  
+         </carousel>
+	 
+   </view>
+
+   <view name="gamecarousel,grid,video,detailed">   
+      <image name="cornerlogo" extra="true">
+       <pos>0.845 0.85</pos>
+        <size>0.15 0.13</size>		
+        <path>./_inc/system8.png</path>
+        <zIndex>700</zIndex>
+		<storyboard>
+        <animation property="opacity" from="0" to="1" duration="1500" mode="easeIn"/>
+        <animation property="x" from="1.3" to="0.845" duration="1500" autoreverse="false" begin="0"/>				  
+		</storyboard>
+	 </image>
+   </view>	 
+------------------------------------------------------------------------------------------------------------------- 
+
+</feature> 
+</theme>

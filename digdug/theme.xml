@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>Dig Dug is a maze arcade game developed by Namco in 1981 and released in 1982, distributed in North America by Atari, Inc. The player controls Dig Dug to defeat all enemies per stage, by either inflating them to bursting or crushing them underneath rocks.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>Dig Dug is a maze arcade game developed by Namco in 1981 and released in 1982.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Dig Dug</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Collection</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>1982</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

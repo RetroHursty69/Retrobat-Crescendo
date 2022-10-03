@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>The V.Smile was a sixth-generation educational home video game console manufactured and released by VTech. Titles are available on ROM cartridges called "Smartridges", to play off the system's educational nature. In 2010, the new and old models of the V.Smile were discontinued. VTech still made games for the V.Smile until 2012.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>The V.Smile was a sixth-generation educational home video game console manufactured and released by VTech.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>V.Smile</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Console</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>2004</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

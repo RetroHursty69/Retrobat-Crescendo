@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>Yoshi is a fictional dinosaur who appears in video games published by Nintendo. Yoshi debuted in Super Mario World (1990) on the Super Nintendo Entertainment System as Mario and Luigi's sidekick. Yoshi is the title character of the Yoshi series and a supporting character in Mario spin-off games such as Mario Party and Mario Kart, as well as many Mario sports games. It also appears as a playable character in crossover fighting game Super Smash Bros. series.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>Yoshi is a fictional dinosaur who appears in video games published by Nintendo.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Yoshi</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Collection</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>1990</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>Baseball is a bat-and-ball sport played between two teams of nine players each, taking turns batting and fielding. The game is live when the umpire signals to the pitcher either verbally or by pointing, indicating that the ball is now in play. A player on the fielding team, called the pitcher, throws a ball that a player on the batting team tries to hit with a bat.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>Baseball is a bat-and-ball sport played between two teams of nine players each, taking turns batting and fielding.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Baseball</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Collection</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>All</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

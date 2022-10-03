@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>In Western gaming, the promise of sexual content in games is commonly used as a marketing tool but many highly-sexualised games do not feature any explicitly adult content. Though some games do use sex acts or nudity as a narrative device, in-game reward, or a gameplay element, purely pornographic games are uncommon.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>Sexual content has been found in video games since the early days of the industry and games featuring sexual content can be found on most platforms.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Adult</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Collection</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>All</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

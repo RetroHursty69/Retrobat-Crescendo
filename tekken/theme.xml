@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>Tekken is a Japanese media franchise centered on a series of fighting video and arcade games developed by Bandai Namco Studios and published by Bandai Namco Entertainment. The franchise also includes film and print adaptations.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>Tekken is a Japanese media franchise centered on a series of fighting video and arcade games developed by Bandai Namco Studios.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Tekken</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Collection</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>1994</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

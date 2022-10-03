@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>The Bally Astrocade, originally referred to as the Bally Home Library Computer, is a second generation (1976–1992) home video game console developed by Midway and distributed by Bally Manufacturing. It was released in late 1977 in North America at a retail price of $299. The console was not released outside North America. The Astrocade was known for having the most powerful graphics and sound capabilities for all consoles of it's era. The console was discontinued in mid to late 1983.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>The Bally Astrocade is a second generation (1976–1992) home video game console developed by Midway and distributed by Bally Manufacturing.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Bally Astrocade</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Computer</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>1978</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

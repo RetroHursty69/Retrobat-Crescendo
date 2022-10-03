@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>The Nintendo Entertainment System (NES) is an 8-bit third-generation home video game console produced by Nintendo. It was first released in Japan in 1983 as the Family Computer (FC), commonly known as the Famicom. The NES, a redesigned version, was released in American test markets in October 1985, before becoming widely available in North America and other countries.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>A 8-bit third-generation home video game console first released in Japan.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Nintendo Famicom</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Console</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>1983</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

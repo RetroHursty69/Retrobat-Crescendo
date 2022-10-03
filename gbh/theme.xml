@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>Game hacks for The Game Boy developed and manufactured by Nintendo. It was released in Japan on April 21, 1989, in North America in August 1989, and in Europe in 1990.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>Game hacks for The Game Boy developed and manufactured by Nintendo.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Game Boy Hacks</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Hacks</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>1989</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

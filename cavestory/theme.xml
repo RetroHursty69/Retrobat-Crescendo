@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>Cave Story, originally released as Dōkutsu Monogatari, is a 2004 Metroidvania platform-adventure game for Microsoft Windows. It was developed over five years by Japanese independent developer Daisuke "Pixel" Amaya in his free time. Cave Story features 2D platform mechanics and is reminiscent of the games Amaya played in his youth, such as Metroid and Castlevania (both released in 1986). After its initial self-published release, the game slowly gained popularity on the internet.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>Cave Story is a 2004 Metroidvania platform-adventure game for Microsoft Windows.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Cave Story</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Other</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>2004</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

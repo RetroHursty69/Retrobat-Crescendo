@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>FinalBurn Neo is an active fork of the FinalBurn Alpha emulator, created by many of the former FBA developers. FinalBurn was one of the first Capcom CPS2 emulators. When this project came to a halt in 2001, its sources were widely disseminated, which allowed the development of a large number of unofficial versions of which FBA is the most successful.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>FinalBurn Neo is an active fork of the FinalBurn Alpha emulator</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>FinalBurn Neo</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Emulator</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>2000</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

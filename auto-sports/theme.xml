@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>A sports video game is a video game that simulates the practice of sports. Most sports have been recreated with a game, including team sports, track and field, extreme sports, and combat sports. Some games emphasize actually playing the sport (such as FIFA, Pro Evolution Soccer and Madden NFL), whilst others emphasize strategy and sport management (such as Football Manager and Out of the Park Baseball).</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>A sports video game is a video game that simulates the practice of sports.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Sports</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Collection</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>All</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

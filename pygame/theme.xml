@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>Pygame is a set of Python modules designed for writing video games. Pygame adds functionality on top of the excellent SDL library. This allows you to create fully featured games and multimedia programs in the python language.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>Pygame is a set of Python modules designed for writing video games.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Pygame</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Module</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>2000</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

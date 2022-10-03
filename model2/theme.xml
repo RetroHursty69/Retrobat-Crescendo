@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>The Sega Model 2 is an arcade system board originally debuted by Sega in 1993 as a successor to the Sega Model 1 board. It is an extension of the Model 1 hardware, most notably introducing the concept of texture-mapped polygons, allowing for more realistic 3D graphics (for its time). The Model 2 board was an important milestone for the arcade industry, and helped launch several key arcade franchises of the 90s, including Daytona USA, Virtua Cop, Sega Rally Championship, Dead or Alive, Virtua Striker, Cyber Troopers Virtual-On and The House of the Dead.  The Model 2 was engineered with help from GE Aerospace (acquired by Martin Marietta in 1993, now part of Lockheed Martin), who designed the texture-mapping technology incorporated by the Model 2. The Model 2's development was led by famed game designer Yu Suzuki. The Model 2 arcade board debuted along with Daytona USA, a game which was finished, copyrighted and debuted at the JAMMA arcade show in 1993.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>The Sega Model 2 is an arcade system board originally debuted by Sega in 1993 as a successor to the Sega Model 1 board.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Sega Model 2</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Arcade</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>1993</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

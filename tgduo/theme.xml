@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>The TurboDuo is a fourth-generation video game console developed by NEC Home Electronics and Hudson Soft for the North American market. The TurboDuo was test-marketed in Los Angeles in October 1992, before a nationwide rollout in May 1993. It is the North American version of the Japanese PC Engine Duo game console which was released in September 1991.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>The TurboDuo is a fourth-generation video game console developed by NEC Home Electronics and Hudson Soft for the North American market.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>NEC TurboDuo</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Console</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>1993</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

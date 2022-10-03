@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>SNK's first two products using the Neo Geo name are an arcade system called the Neo Geo Multi Video System (MVS) and a companion console called the Advanced Entertainment System (AES), both released in 1990. The MVS offers arcade operators the ability to put up to six different arcade games into a single cabinet, a key economic consideration for operators with limited floorspace. It comes in many different cabinets but basically consists of an add on board that can be linked to a standard JAMMA system.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>SNK arcade system called the Neo Geo Advanced Entertainment System (AES)</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Neo Geo AES</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Console</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>1990</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

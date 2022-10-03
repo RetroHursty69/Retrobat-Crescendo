@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>The Acorn Electron is a home computer designed by Acorn Computers Ltd. The computer was released in August 1983 in Europe at a retail price of £175. The computer was not released outside of Europe. The Electron was a budget version of the BBC Micro educational/home computer, and for a short period, the Electron was reportedly the best selling micro in the United Kingdom. The computer was manufactured until an unspecified time in 1985.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>The Acorn Electron is a home computer designed by Acorn Computers Ltd.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Acorn Electron</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Computer</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>1983</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

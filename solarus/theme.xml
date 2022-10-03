@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>Solarus is a Free and open-source software cross-platform Game engine for developing 2D computer graphics. It has been designed to power Action role-playing games, though, are not limited. The engine is written in C++ and uses Lua (programming language) as its scripting language. It is published under the GNU General Public License.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>Solarus is a Free and open-source software cross-platform Game engine for developing 2D computer graphics.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Solarus</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Software</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>2011</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

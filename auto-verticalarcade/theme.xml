@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>A vertically scrolling video game or vertical scroller is a video game in which the player views the field of play principally from a top-down perspective, while the background scrolls from the top of the screen to the bottom (or, less often, from the bottom to the top) to create the illusion that the player character is moving in the game world. Continuous vertical scrolling is designed to suggest the appearance of constant forward motion, such as driving.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>A vertically scrolling video game or vertical scroller is a video game in which the player views the field of play principally from a top-down perspective.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Vertical Arcade</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Arcade</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>All</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

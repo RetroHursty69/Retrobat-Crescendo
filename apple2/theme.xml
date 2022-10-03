@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>In 1976, computer pioneers Steve Wozniak and Steve Jobs began selling their Apple I computer in kit form to computer stores. A month later, Wozniak was working on a design for an improved version, the Apple II. They demonstrated a prototype in December, and then introduced it to the public in April 1977. The Apple II started the boom in personal computer sales in the late 1970s, and pushed Apple into the lead among personal computer makers.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>The Apple II started the boom in personal computer sales in the late 1970s.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Apple II</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Computer</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>1977</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>PrBoom, originally short for "Proff Boom", is a source port for Windows, Linux/POSIX, AmigaOS 4, OpenVMS and Mac OS X based initially on Boom, but later merged with LxDoom and LsdlDoom. As a result of this merger, PrBoom is compatible with both Boom and MBF. It includes OpenGL features for the renderer (as GLBoom) as well as some enhancements over the engines it is based on, such as being able to handle levels with twice as many segs, vertices and sidedefs than usual. In addition to the code from its predecessors, it incorporates bits of code from the Eternity Engine, and PrBoom+.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>PrBoom, originally short for "Proff Boom", is a source port for Windows, Linux/POSIX, AmigaOS 4, OpenVMS and Mac OS X based initially on Boom.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>PrBoom</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Port</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>2000</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

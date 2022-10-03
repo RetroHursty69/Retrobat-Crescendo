@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>The Texas Instruments TI-99/4A is a home computer, it is a redesign of the TI-99/4 system, which was discontinued. The new "4A" has a new graphics chip and a better keyboard. About the only way to expand the original TI-99/4A was from the expansion port on the right side of the console. Memory expansion, a serial interface, a floppy drive and other peripherals can be plugged in here for added capabilities.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>The Texas Instruments TI-99/4A is a home computer, it is a redesign of the TI-99/4 system, which was discontinued.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>TI-99/4A</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Computer</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>1984</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

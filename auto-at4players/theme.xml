@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>4 Player Classics refers to arcade games that allow 2 players. In most cases, all 4 players will play at the same time, often together on the same side in games like TMNt or The Simpsons.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>4 Player Classics refers to arcade games that allow 4 players.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>4 Player Classics</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Collection</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>Many</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

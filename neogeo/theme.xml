@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>Neo Geo is a family of video game hardware developed by SNK. On the market from 1990 to 2004, the brand originated with the release of an arcade system, the Neo Geo MVS and its home console counterpart, the Neo Geo AES. Both the arcade system and console were powerful for the time and the AES allows for perfect compatibility of games released for the MVS. However, the high price point for both the AES console and its games prevented it from directly competing with its contemporaries, the Sega Genesis, Super NES, and Turbo-Grafx 16. However, the MVS arcade became very successful in stores in Japan and North America.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>Neo Geo is a family of video game hardware developed by SNK.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Neo Geo</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Various</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>1990</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

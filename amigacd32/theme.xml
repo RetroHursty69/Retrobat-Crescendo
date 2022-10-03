@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>The Amiga CD32, styled "CD32" and code-named "Spellbound", is the first 32-bit home video game console released in western Europe, Australia, Canada and Brazil. It was first announced at the Science Museum in London on July 16, 1993, and was released in September of the same year. The CD32 uses CD-ROM media, and was developed by Commodore, creator of the Commodore Amiga computer. It was based on Commodore's Advanced Graphics Architecture chipset, and is of similar specification to the Amiga 1200 computer. Using third party devices, it is possible to upgrade the CD32 with keyboard, floppy drive, hard drive, RAM and mouse, turning it into the equivalent of an Amiga 1200 personal computer. A hardware MPEG decompression module for playing Video CD was also released.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>The Amiga CD32, is the first 32-bit home video game console released in western Europe, Australia, Canada and Brazil.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Commodore Amiga CD32</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Console</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>1993</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>The ZX81 is a home computer produced by Sinclair Research and manufactured in Scotland by Timex Corporation. It was launched in the United Kingdom in March 1981 as the successor to Sinclair's ZX80 and was designed to be a low-cost introduction to home computing for the general public. It was hugely successful, and more than 1.5 million units were sold before it was discontinued. The ZX81 found commercial success in many other countries, notably the United States, where it was initially sold as the ZX-81. Timex manufactured and distributed it under licence and enjoyed a substantial but brief boom in sales.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>The ZX81 is a home computer produced by Sinclair Research and manufactured in Scotland by Timex Corporation.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Sinclair ZX81</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Computer</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>1981</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

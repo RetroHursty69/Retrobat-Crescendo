@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>TeknoParrot is a closed-source compatibility layer for Windows PCs to run games originally made for Windows-based and some Linux-based arcade systems. It includes the ability to map standard PC gear like steering wheels and joysticks to the game's input.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>TeknoParrot is a closed-source compatibility layer for Windows PCs to run games originally made for Windows-based and some Linux-based arcade systems.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Teknoparrot</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Software</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>All</text>
+		</text>			
+		
+	</view>	
+	
+</theme>

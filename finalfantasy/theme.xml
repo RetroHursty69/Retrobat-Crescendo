@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>Final Fantasy is a Japanese science fantasy anthology media franchise created by Hironobu Sakaguchi and developed and owned by Square Enix (formerly Square). The franchise centers on a series of fantasy and science fantasy role-playing video games. The first game in the series was released in 1987, with 16 numbered main entries having been released to date.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>Final Fantasy is a Japanese science fantasy anthology media franchise created by Hironobu Sakaguchi.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Final Fantasy</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Collection</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>1987</text>
+		</text>			
+		
+	</view>	
+	
+</theme>
