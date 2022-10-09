@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+		<view name="system, basic, detailed, video, grid, gamecarousel">
+			<image name="logo">
+				<path>./_inc/system.png</path>
+			</image>
+			
+		<text name="TextDescLong" extra="true">
+				<text>The Watara Supervision, also known as the QuickShot Supervision in the UK, is a monochrome handheld game console, originating from Asia, and introduced in 1992 as a cut-price competitor for Nintendo's Game Boy. It came packaged with a game called Crystball, which is similar to Breakout.</text>
+		</text>
+
+		<text name="TextDescShort" extra="true">
+				<text>The Watara Supervision, is a monochrome handheld game console, originating from Asia, and introduced as a cut-price competitor for Nintendo's Game Boy.</text>
+		</text>
+		
+		<text name="TextDescName" extra="true">
+				<text>Supervision</text>
+		</text>
+
+		<text name="TextDescCategory" extra="true">
+				<text>Handheld</text>
+		</text>	
+
+		<text name="TextDescYear" extra="true">
+				<text>1992</text>
+		</text>			
+		
+	</view>	
+	
+</theme>
